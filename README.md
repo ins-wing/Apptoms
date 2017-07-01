@@ -22,7 +22,7 @@ pod "Apptoms"
 
 ## Author
 
-ins-wing, wing.org@gmail.com
+WinG@Apptoms, wing.org@gmail.com
 
 ## License
 

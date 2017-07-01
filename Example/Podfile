@@ -6,6 +6,5 @@ target 'Apptoms_Example' do
   target 'Apptoms_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end

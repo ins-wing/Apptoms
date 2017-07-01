@@ -1,0 +1,32 @@
+{
+  "name": "Apptoms",
+  "version": "0.0.1",
+  "summary": "Apptoms Archtecture.",
+  "description": "Combine different Apptoms Elements to create a new compound.",
+  "homepage": "https://github.com/ins-wing/Apptoms",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "WinG@Apptoms": "wing.org@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ins-wing/Apptoms.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Hydrogen",
+  "subspecs": [
+    {
+      "name": "Hydrogen",
+      "source_files": "Apptoms/Classes/Hydrogen/**/*"
+    },
+    {
+      "name": "Helium",
+      "source_files": "Apptoms/Classes/Helium/**/*"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Apptoms
+//  Apptoms Demo
 //
-//  Created by ins-wing on 07/01/2017.
-//  Copyright (c) 2017 ins-wing. All rights reserved.
+//  Created by WinG@Apptoms on 07/01/2017.
+//  Copyright (c) 2017 Apptoms. All rights reserved.
 //
 
 import UIKit
