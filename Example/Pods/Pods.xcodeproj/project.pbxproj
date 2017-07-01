@@ -30,16 +30,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07E9F7844A43775EE1815DBD1571CD0B /* Pods_Apptoms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Apptoms_Tests.framework; path = "Pods-Apptoms_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E9F7844A43775EE1815DBD1571CD0B /* Pods_Apptoms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apptoms_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		149E014F0FB12E96F6BE770253462F24 /* Apptoms-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apptoms-prefix.pch"; sourceTree = "<group>"; };
 		1973F44E23754E88D9BDC220FAD29253 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C77EB6D9354330464E7AB1212C1B82B /* Pods-Apptoms_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Apptoms_Example.modulemap"; sourceTree = "<group>"; };
+		1C77EB6D9354330464E7AB1212C1B82B /* Pods-Apptoms_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Apptoms_Example.modulemap"; sourceTree = "<group>"; };
 		1DA8333DBB50CD329E015334FB7C4E87 /* Pods-Apptoms_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Apptoms_Example-umbrella.h"; sourceTree = "<group>"; };
 		22294499596D4C305E3498CEEB447B7A /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3B7D0D978A8CA4E9DDB7739F59B04416 /* Pods-Apptoms_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apptoms_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		42E9BFA78079137F2BF5E39D58D0EE40 /* Apptoms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apptoms-umbrella.h"; sourceTree = "<group>"; };
-		5114B774F251856BC9CF25C9AE3B4776 /* Apptoms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Apptoms.framework; path = Apptoms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5816BA8E5A022ED66C40FC64AE578AB0 /* Pods_Apptoms_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Apptoms_Example.framework; path = "Pods-Apptoms_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5114B774F251856BC9CF25C9AE3B4776 /* Apptoms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Apptoms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5816BA8E5A022ED66C40FC64AE578AB0 /* Pods_Apptoms_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apptoms_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B04124323269FC3248B5282055EB7 /* Pods-Apptoms_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apptoms_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5CD6F565B7AF7EC99E85856C0487D8CC /* Pods-Apptoms_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Apptoms_Example-dummy.m"; sourceTree = "<group>"; };
 		63368EAEF7D2F2CB4B0D190AD6B3CDFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,16 +52,16 @@
 		799719D314F2CBFBA2C85BD6108F58F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83FACA8AA89BFFCD8E2BE3CAE4DD6BAE /* Pods-Apptoms_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Apptoms_Tests-umbrella.h"; sourceTree = "<group>"; };
 		897170CDDC9653033AEA6CBE63DB6664 /* Pods-Apptoms_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Apptoms_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8DA1CF0B64A24B52CDB1C4B456E13202 /* Apptoms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Apptoms.modulemap; sourceTree = "<group>"; };
+		8DA1CF0B64A24B52CDB1C4B456E13202 /* Apptoms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Apptoms.modulemap; sourceTree = "<group>"; };
 		909B40E5914345F713933FFD7447A318 /* Pods-Apptoms_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Apptoms_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5B5B7FC2BC2396A6ED63CC8567A84B6 /* Pods-Apptoms_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Apptoms_Tests-resources.sh"; sourceTree = "<group>"; };
 		ACF3CF5F5A446FB2C889F099D76FA9FD /* Apptoms-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Apptoms-dummy.m"; sourceTree = "<group>"; };
 		B0217C11BC6A38583E1331E3EE04FF77 /* Pods-Apptoms_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apptoms_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B06921CEE0124FCA9D54F54C01A906DB /* Pods-Apptoms_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apptoms_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4A874418502C1F01721F921B82AD832 /* Pods-Apptoms_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apptoms_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DCDFDAC709649D1D2AF5980A310A5B26 /* Pods-Apptoms_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Apptoms_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F43EF560F70015FEA2F5971C76372C40 /* Pods-Apptoms_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Apptoms_Tests.modulemap"; sourceTree = "<group>"; };
+		F43EF560F70015FEA2F5971C76372C40 /* Pods-Apptoms_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Apptoms_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,6 @@
 			children = (
 				811ECA6DF6A66033C3394C8A30E5A447 /* Hydrogen */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -172,7 +171,6 @@
 			children = (
 				22294499596D4C305E3498CEEB447B7A /* Extensions.swift */,
 			);
-			name = Hydrogen;
 			path = Hydrogen;
 			sourceTree = "<group>";
 		};
@@ -181,7 +179,6 @@
 			children = (
 				3AB04C2CC389EB86156D4CF5B19C77BF /* Classes */,
 			);
-			name = Apptoms;
 			path = Apptoms;
 			sourceTree = "<group>";
 		};
