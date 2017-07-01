@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		010FA632EAB7BE5DE5D4EEA6451EEB62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		20F52BCE1F07E913002249DB /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F52BCD1F07E913002249DB /* Views.swift */; };
+		20F52BE31F07F1AE002249DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F52BE21F07F1AE002249DB /* UIKit.framework */; };
 		4BDCF039FC95302722E66B7FE023A6EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4C528840285EF010755ADCD6E00FDF4D /* Apptoms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E9BFA78079137F2BF5E39D58D0EE40 /* Apptoms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		644A2D337271FCAA84428EA3A708F3D8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22294499596D4C305E3498CEEB447B7A /* Extensions.swift */; };
@@ -37,6 +38,7 @@
 		1C77EB6D9354330464E7AB1212C1B82B /* Pods-Apptoms_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Apptoms_Example.modulemap"; sourceTree = "<group>"; };
 		1DA8333DBB50CD329E015334FB7C4E87 /* Pods-Apptoms_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Apptoms_Example-umbrella.h"; sourceTree = "<group>"; };
 		20F52BCD1F07E913002249DB /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Views.swift; path = Helium/Views.swift; sourceTree = "<group>"; };
+		20F52BE21F07F1AE002249DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		22294499596D4C305E3498CEEB447B7A /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3B7D0D978A8CA4E9DDB7739F59B04416 /* Pods-Apptoms_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apptoms_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		42E9BFA78079137F2BF5E39D58D0EE40 /* Apptoms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apptoms-umbrella.h"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20F52BE31F07F1AE002249DB /* UIKit.framework in Frameworks */,
 				4BDCF039FC95302722E66B7FE023A6EB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,17 +218,10 @@
 			path = "Example/Pods/Target Support Files/Apptoms";
 			sourceTree = "<group>";
 		};
-		C830BE4B79179CF0C2267E9E05620A9B /* Hydrogen */ = {
-			isa = PBXGroup;
-			children = (
-				9FEEAE9D996784F595838A8BAC3F1AB5 /* Apptoms */,
-			);
-			name = Hydrogen;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				20F52BE21F07F1AE002249DB /* UIKit.framework */,
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
@@ -234,7 +230,7 @@
 		E2D2C7CD6C52869A270EDE0119F4AFA2 /* Apptoms */ = {
 			isa = PBXGroup;
 			children = (
-				C830BE4B79179CF0C2267E9E05620A9B /* Hydrogen */,
+				9FEEAE9D996784F595838A8BAC3F1AB5 /* Apptoms */,
 				C75845FB0ACE140B09D1A69EA4948276 /* Support Files */,
 			);
 			name = Apptoms;
