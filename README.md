@@ -20,6 +20,18 @@ it, simply add the following line to your Podfile:
 pod "Apptoms"
 ```
 
+You can add also install other Apptoms elements by adding the subspecs in Podfile
+```ruby
+pod "Apptoms/Hydrogen"
+pod "Apptoms/Helium"
+```
+
+## Apptoms
+
+## Hydrogen@Apptoms
+
+## Helium@Apptoms
+
 ## Author
 
 WinG@Apptoms, wing.org@gmail.com

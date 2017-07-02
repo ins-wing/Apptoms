@@ -56,6 +56,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="l55-Qx-do7" kind="show" id="iy0-ce-NpS"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -78,6 +81,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DOv-55-ufu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1091" y="-167"/>
+        </scene>
+        <!--Helium-->
+        <scene sceneID="rS7-ug-9a8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Helium" id="l55-Qx-do7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r4I-8p-YhY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="-127"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2vv-AN-CQ9">

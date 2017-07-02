@@ -8,7 +8,15 @@
 
 import UIKit
 
-class HydrogenColorViewController: UIViewController {
+class HydrogenColorViewController: UIViewController, UITextFieldDelegate {
+	@IBOutlet weak var hexColorView: UIView!
+	@IBOutlet weak var hexColorInput: UITextField!
+
+	@IBOutlet weak var codeColorView: UIView!
+	@IBOutlet weak var redCodeInput: UITextField!
+	@IBOutlet weak var greenCodeInput: UITextField!
+	@IBOutlet weak var blueCodeInput: UITextField!
+	@IBOutlet weak var alphaCodeInput: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,16 +28,17 @@ class HydrogenColorViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
-    /*
-    // MARK: - Navigation
+	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+		textField.resignFirstResponder()
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+		if (textField.isEqual(hexColorInput)) {
+			hexColorView.backgroundColor = UIColor(hex: hexColorInput.text!)
+		}
+		else {
+			codeColorView.backgroundColor = UIColor(codeWithRed: CGFloat(Double(redCodeInput.text!) ?? 0), green: CGFloat(Double(greenCodeInput.text!) ?? 0), blue: CGFloat(Double(blueCodeInput.text!) ?? 0), alpha: CGFloat(Double(alphaCodeInput.text!) ?? 255))
+		}
 
+		return true
+	}
 }

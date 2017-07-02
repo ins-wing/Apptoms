@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		010FA632EAB7BE5DE5D4EEA6451EEB62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		208D836F1F08984C00851EA6 /* Apptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208D836E1F08984C00851EA6 /* Apptoms.swift */; };
 		20F52BCE1F07E913002249DB /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F52BCD1F07E913002249DB /* Views.swift */; };
 		20F52BE31F07F1AE002249DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F52BE21F07F1AE002249DB /* UIKit.framework */; };
 		4BDCF039FC95302722E66B7FE023A6EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -37,6 +38,7 @@
 		1973F44E23754E88D9BDC220FAD29253 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C77EB6D9354330464E7AB1212C1B82B /* Pods-Apptoms_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Apptoms_Example.modulemap"; sourceTree = "<group>"; };
 		1DA8333DBB50CD329E015334FB7C4E87 /* Pods-Apptoms_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Apptoms_Example-umbrella.h"; sourceTree = "<group>"; };
+		208D836E1F08984C00851EA6 /* Apptoms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Apptoms.swift; path = Apptoms/Apptoms.swift; sourceTree = "<group>"; };
 		20F52BCD1F07E913002249DB /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Views.swift; path = Helium/Views.swift; sourceTree = "<group>"; };
 		20F52BE21F07F1AE002249DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		22294499596D4C305E3498CEEB447B7A /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		208D83701F08985200851EA6 /* Apptoms */ = {
+			isa = PBXGroup;
+			children = (
+				208D836E1F08984C00851EA6 /* Apptoms.swift */,
+			);
+			name = Apptoms;
+			sourceTree = "<group>";
+		};
 		20F52BCC1F07E8F9002249DB /* Helium */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 		3AB04C2CC389EB86156D4CF5B19C77BF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				208D83701F08985200851EA6 /* Apptoms */,
 				20F52BCC1F07E8F9002249DB /* Helium */,
 				811ECA6DF6A66033C3394C8A30E5A447 /* Hydrogen */,
 			);
@@ -376,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208D836F1F08984C00851EA6 /* Apptoms.swift in Sources */,
 				654560B43CD78F1EBC36C2A4CCBD8F9A /* Apptoms-dummy.m in Sources */,
 				644A2D337271FCAA84428EA3A708F3D8 /* Extensions.swift in Sources */,
 				20F52BCE1F07E913002249DB /* Views.swift in Sources */,
