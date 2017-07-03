@@ -31,8 +31,6 @@ Combine different Apptoms Elements to create a new compound.
   s.ios.deployment_target = '9.0'
   s.default_subspec = 'Apptoms'
 
-  s.dependency 'SwiftMsgPack'
-
   s.subspec 'Apptoms' do |sp|
     sp.source_files = 'Apptoms/Classes/Apptoms/*'
   end
