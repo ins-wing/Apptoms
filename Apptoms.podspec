@@ -28,7 +28,7 @@ Combine different Apptoms Elements to create a new compound.
   s.source           = { :git => 'https://github.com/ins-wing/Apptoms.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.default_subspec = 'Apptoms'
 
   s.subspec 'Apptoms' do |sp|
@@ -50,6 +50,7 @@ Combine different Apptoms Elements to create a new compound.
 
   s.subspec 'Beryllium' do |sp|
     sp.dependency 'Apptoms/Lithium'
+    sp.dependency 'SwiftMsgPack'
     sp.source_files = 'Apptoms/Classes/Beryllium/**/*'
   end
 

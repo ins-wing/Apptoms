@@ -7,10 +7,27 @@
 //
 
 import Foundation
-
+import SwiftMsgPack
 
 public extension Data {
-	func convert() {
-		
+	public var msgpack: [AnyHashable:Any]? {
+		do {
+			let object = try self.unpack()
+			return object as? [AnyHashable:Any]
+		}
+		catch {
+			return nil
+		}
+	}
+	
+	public init?(msgpack: [AnyHashable:Any]) {
+		var data = Data()
+		do {
+			try data.pack(msgpack)
+			self = data
+		}
+		catch {
+			return nil
+		}
 	}
 }
