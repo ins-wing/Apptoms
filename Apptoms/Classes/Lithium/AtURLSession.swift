@@ -22,10 +22,14 @@ public class AtURLSession {
 		case Shared(URLCache?)
 	}
 	
+	public subscript(_ label: String) -> URLSession? {
+		return sessions[label]
+	}
+	
 	private lazy var sessions = [String:URLSession]()
 	
 	private func getURLSessionConfiguration(connection: ConnectionType, cache: CacheType) -> URLSessionConfiguration {
-		let config = URLSessionConfiguration()
+		let config = URLSessionConfiguration.default
 		switch connection {
 		case .Normal:
 			config.requestCachePolicy = .reloadRevalidatingCacheData
@@ -36,26 +40,47 @@ public class AtURLSession {
 		}
 		
 		switch cache {
+		case .None:
+			config.urlCache = nil
 		case .New(let memoryCapacity, let diskCapacity):
 			config.urlCache = getURLCache(memoryCapacity: memoryCapacity, diskCapacity: diskCapacity)
-		case .Shared(var cache):
-			if (cache == nil) {
-				cache = URLCache.shared
-			}
-			config.urlCache = cache
-		default:
-			break
+		case .Shared(let cache):
+			config.urlCache = cache ?? URLCache.shared
 		}
 		
 		return config
 	}
 	
 	private func getURLCache(memoryCapacity: Int, diskCapacity: Int) -> URLCache {
-		let cache = URLCache(memoryCapacity: memoryCapacity, diskCapacity: diskCapacity, diskPath: Random.string(character: Random.getCharacters(.Lowercase, .Uppercase, .Number), length: 10))
+		let cache = URLCache(memoryCapacity: memoryCapacity*1024*1024, diskCapacity: diskCapacity*1024*1024, diskPath: Random.string(character: Random.getCharacters(.Lowercase, .Uppercase, .Number), length: 10))
 		return cache
 	}
 	
+	public func createURLSession(label: String, connection: ConnectionType, cache: CacheType) -> URLSession {
+		if (label.characters.count > 0) {
+			var session = sessions[label]
+			if (session != nil) {
+				session?.finishTasksAndInvalidate()
+				sessions[label] = nil
+			}
+			
+			session = URLSession(configuration: getURLSessionConfiguration(connection: connection, cache: cache))
+			sessions[label] = session
+			
+			return session!
+		}
+		else {
+			return URLSession.shared
+		}
+	}
+	
+	public func clearURLSessionCache(label: String) {
+		sessions[label]?.configuration.urlCache?.removeAllCachedResponses()
+	}
+	
 	deinit {
-		
+		for session in sessions.values {
+			session.configuration.urlCache?.removeAllCachedResponses()
+		}
 	}
 }

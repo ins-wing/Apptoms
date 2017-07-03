@@ -44,7 +44,13 @@ Combine different Apptoms Elements to create a new compound.
   end
 
   s.subspec 'Lithium' do |sp|
-sp.source_files = 'Apptoms/Classes/Lithium/**/*'
+    sp.dependency 'Apptoms/Hydrogen'
+    sp.source_files = 'Apptoms/Classes/Lithium/**/*'
+  end
+
+  s.subspec 'Beryllium' do |sp|
+    sp.dependency 'Apptoms/Lithium'
+    sp.source_files = 'Apptoms/Classes/Beryllium/**/*'
   end
 
   # s.resource_bundles = {
