@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Apptoms'
-  s.version          = '0.0.5'
+  s.version          = '0.0.7'
   s.summary          = 'Apptoms Archtecture.'
 
 # This description is used to generate tags and improve search results.
@@ -52,7 +52,7 @@ Combine different Apptoms Elements to create a new compound.
 
   s.subspec 'Beryllium' do |sp|
     sp.dependency 'Apptoms/Lithium'
-    s.dependency 'SwiftMsgPack'
+    sp.dependency 'SwiftMsgPack'
     sp.source_files = 'Apptoms/Classes/Beryllium/*'
   end
 
