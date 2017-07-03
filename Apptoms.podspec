@@ -50,7 +50,7 @@ Combine different Apptoms Elements to create a new compound.
 
   s.subspec 'Beryllium' do |sp|
     sp.dependency 'Apptoms/Lithium'
-    sp.dependency 'SwiftMsgPack'
+    s.dependency 'SwiftMsgPack'
     sp.source_files = 'Apptoms/Classes/Beryllium/*'
   end
 
