@@ -31,27 +31,29 @@ Combine different Apptoms Elements to create a new compound.
   s.ios.deployment_target = '9.0'
   s.default_subspec = 'Apptoms'
 
+  s.dependency 'SwiftMsgPack'
+
   s.subspec 'Apptoms' do |sp|
-    sp.source_files = 'Apptoms/Classes/Apptoms/**/*'
+    sp.source_files = 'Apptoms/Classes/Apptoms/*'
   end
 
   s.subspec 'Hydrogen' do |sp|
-    sp.source_files = 'Apptoms/Classes/Hydrogen/**/*'
+    sp.source_files = 'Apptoms/Classes/Hydrogen/*'
   end
 
   s.subspec 'Helium' do |sp|
-    sp.source_files = 'Apptoms/Classes/Helium/**/*'
+    sp.source_files = 'Apptoms/Classes/Helium/*'
   end
 
   s.subspec 'Lithium' do |sp|
     sp.dependency 'Apptoms/Hydrogen'
-    sp.source_files = 'Apptoms/Classes/Lithium/**/*'
+    sp.source_files = 'Apptoms/Classes/Lithium/*'
   end
 
   s.subspec 'Beryllium' do |sp|
     sp.dependency 'Apptoms/Lithium'
     sp.dependency 'SwiftMsgPack'
-    sp.source_files = 'Apptoms/Classes/Beryllium/**/*'
+    sp.source_files = 'Apptoms/Classes/Beryllium/*'
   end
 
   # s.resource_bundles = {
