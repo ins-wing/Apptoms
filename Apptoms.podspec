@@ -29,7 +29,7 @@ Combine different Apptoms Elements to create a new compound.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.default_supspec = 'Apptoms'
+  s.default_subspec = 'Apptoms'
 
   s.subspec 'Apptoms' do |sp|
     sp.source_files = 'Apptoms/Classes/Apptoms/**/*'
