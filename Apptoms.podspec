@@ -43,6 +43,10 @@ Combine different Apptoms Elements to create a new compound.
     sp.source_files = 'Apptoms/Classes/Helium/**/*'
   end
 
+  s.subspec 'Lithium' do |sp|
+sp.source_files = 'Apptoms/Classes/Lithium/**/*'
+  end
+
   # s.resource_bundles = {
   #   'Apptoms' => ['Apptoms/Assets/*.png']
   # }

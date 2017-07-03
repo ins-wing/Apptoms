@@ -62,6 +62,23 @@ import UIKit
 		layer.borderWidth = borderWidth
 		layer.borderColor = borderColor?.cgColor
 	}
+	
+	override public func awakeFromNib() {
+		super.awakeFromNib()
+		
+		
+	}
+	
+	override public func layoutSubviews() {
+		super.layoutSubviews()
+		
+		if (circleMask) {
+			layer.cornerRadius = min(frame.size.width, frame.size.height) / 2.0
+		}
+		else {
+			layer.cornerRadius = cornerRadius
+		}
+	}
 }
 
 @IBDesignable public class AtImageView: UIImageView {
@@ -118,6 +135,23 @@ import UIKit
 		layer.borderWidth = borderWidth
 		layer.borderColor = borderColor?.cgColor
 	}
+	
+	override public func awakeFromNib() {
+		super.awakeFromNib()
+		
+		
+	}
+	
+	override public func layoutSubviews() {
+		super.layoutSubviews()
+		
+		if (circleMask) {
+			layer.cornerRadius = min(frame.size.width, frame.size.height) / 2.0
+		}
+		else {
+			layer.cornerRadius = cornerRadius
+		}
+	}
 }
 
 @IBDesignable public class AtButton: UIButton {
@@ -173,5 +207,22 @@ import UIKit
 		
 		layer.borderWidth = borderWidth
 		layer.borderColor = borderColor?.cgColor
+	}
+	
+	override public func awakeFromNib() {
+		super.awakeFromNib()
+		
+		
+	}
+	
+	override public func layoutSubviews() {
+		super.layoutSubviews()
+		
+		if (circleMask) {
+			layer.cornerRadius = min(frame.size.width, frame.size.height) / 2.0
+		}
+		else {
+			layer.cornerRadius = cornerRadius
+		}
 	}
 }

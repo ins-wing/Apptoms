@@ -53,6 +53,7 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                         <color key="value" red="0.14117647059999999" green="0.72549019609999998" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="circleMask" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>

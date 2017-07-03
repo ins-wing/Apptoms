@@ -7,13 +7,14 @@
 //
 
 import UIKit
+import Apptoms
 
 class HydrogenStringViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+		print(Random.string(character:Random.getCharacters(.Uppercase, .Lowercase, .Number), length:10))
     }
 
     override func didReceiveMemoryWarning() {
