@@ -6,7 +6,7 @@ target 'Apptoms_Example' do
   pod 'Apptoms/Helium', :path => '../'
   pod 'Apptoms/Lithium', :path => '../'
   pod 'Apptoms/Beryllium', :path => '../'
-
+  
   target 'Apptoms_Tests' do
     inherit! :search_paths
 

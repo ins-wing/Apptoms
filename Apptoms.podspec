@@ -28,30 +28,35 @@ Combine different Apptoms Elements to create a new compound.
   s.source           = { :git => 'https://github.com/ins-wing/Apptoms.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.module_name = 'Apptoms'
   s.ios.deployment_target = '9.0'
   s.default_subspec = 'Apptoms'
+  s.requires_arc = true
+
+  s.dependency 'SwiftMsgPack'
 
   s.subspec 'Apptoms' do |sp|
-    sp.source_files = 'Apptoms/Classes/Apptoms/*'
+    sp.source_files = 'Apptoms/Classes/Apptoms/**/*'
   end
 
   s.subspec 'Hydrogen' do |sp|
-    sp.source_files = 'Apptoms/Classes/Hydrogen/*'
+    sp.source_files = 'Apptoms/Classes/Hydrogen/**/*'
   end
 
   s.subspec 'Helium' do |sp|
-    sp.source_files = 'Apptoms/Classes/Helium/*'
+    sp.source_files = 'Apptoms/Classes/Helium/**/*'
+    sp.frameworks = 'UIKit'
   end
 
   s.subspec 'Lithium' do |sp|
     sp.dependency 'Apptoms/Hydrogen'
-    sp.source_files = 'Apptoms/Classes/Lithium/*'
+    sp.source_files = 'Apptoms/Classes/Lithium/**/*'
   end
 
   s.subspec 'Beryllium' do |sp|
     sp.dependency 'Apptoms/Lithium'
     sp.dependency 'SwiftMsgPack'
-    sp.source_files = 'Apptoms/Classes/Beryllium/*'
+    sp.source_files = 'Apptoms/Classes/Beryllium/**/*'
   end
 
   # s.resource_bundles = {
@@ -61,4 +66,5 @@ Combine different Apptoms Elements to create a new compound.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
 end
