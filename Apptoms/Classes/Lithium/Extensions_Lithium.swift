@@ -20,12 +20,12 @@ public extension URLSession {
 		}
 	}
 	
-	public func asyncJson(url: URL, complete: @escaping ([AnyHashable:Any]?, URLResponse?, Error?) -> ()) {
+	public func asyncJson(url: URL, complete: @escaping (Any?, URLResponse?, Error?) -> ()) {
 		DispatchQueue.global(qos: .utility).async {
 			let request = URLRequest(url: url)
 			let task = self.dataTask(with: request) { data, response, error in
 				let json = try? JSONSerialization.jsonObject(with: data!, options: .allowFragments)
-				complete((json as? [AnyHashable:Any]) ?? nil, response, error)
+				complete(json ?? nil, response, error)
 			}
 			
 			task.resume()

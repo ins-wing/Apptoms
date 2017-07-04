@@ -38,12 +38,12 @@ public extension UIColor {
 }
 
 public extension String {
-	public var json: [AnyHashable:Any]? {
+	public var json: Any? {
 		let object = try? JSONSerialization.jsonObject(with: self.data(using: .utf8)!, options: .allowFragments)
-		return object as? [AnyHashable : Any]
+		return object
 	}
 
-	public init?(json: [AnyHashable:Any]) {
+	public init?(json: Any) {
 		do {
 			let data = try JSONSerialization.data(withJSONObject: json, options: .init(rawValue: 0))
 			self = String(data: data, encoding: .utf8)!

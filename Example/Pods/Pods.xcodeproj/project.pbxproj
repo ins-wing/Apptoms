@@ -160,10 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				EC0B13017178C123C3E23435DC3DC205 /* Apptoms */,
-				473051261F0A4C3B00FC5B84 /* Beryllium */,
-				473051281F0A4C3B00FC5B84 /* Helium */,
 				4730512A1F0A4C3B00FC5B84 /* Hydrogen */,
+				473051281F0A4C3B00FC5B84 /* Helium */,
 				4730512D1F0A4C3B00FC5B84 /* Lithium */,
+				473051261F0A4C3B00FC5B84 /* Beryllium */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
