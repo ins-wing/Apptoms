@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Apptoms'
-  s.version          = '0.0.7'
+  s.version          = '0.0.8'
   s.summary          = 'Apptoms Archtecture.'
 
 # This description is used to generate tags and improve search results.
@@ -32,8 +32,6 @@ Combine different Apptoms Elements to create a new compound.
   s.ios.deployment_target = '9.0'
   s.default_subspec = 'Apptoms'
   s.requires_arc = true
-
-  s.dependency 'SwiftMsgPack'
 
   s.subspec 'Apptoms' do |sp|
     sp.source_files = 'Apptoms/Classes/Apptoms/**/*'
@@ -66,5 +64,5 @@ Combine different Apptoms Elements to create a new compound.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-
+  s.dependency 'UIFontComplete'
 end
