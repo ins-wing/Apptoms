@@ -35,6 +35,12 @@ public extension UIColor {
 	public convenience init(codeWithRed red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat = 255.0) {
 		self.init(red: red / 255.0, green: green / 255.0, blue: blue / 255.0, alpha: alpha / 255.0)
 	}
+	
+	public static var placerHolder: UIColor {
+		get {
+			return UIColor(hex: "C7C7CD")
+		}
+	}
 }
 
 public extension String {
