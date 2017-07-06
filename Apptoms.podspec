@@ -54,7 +54,7 @@ Combine different Apptoms Elements to create a new compound.
 
   s.subspec 'Beryllium' do |sp|
     sp.dependency 'Apptoms/Lithium'
-    sp.optional_dependency 'SwiftMsgPack'
+    sp.dependency 'SwiftMsgPack'
     sp.source_files = 'Apptoms/Classes/Beryllium/**/*'
   end
 
@@ -65,5 +65,5 @@ Combine different Apptoms Elements to create a new compound.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.optional_dependency 'UIFontComplete'
+  s.dependency 'UIFontComplete'
 end
