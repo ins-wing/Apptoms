@@ -42,6 +42,7 @@ Combine different Apptoms Elements to create a new compound.
   end
 
   s.subspec 'Helium' do |sp|
+    sp.dependency 'Apptoms/Hydrogen'
     sp.source_files = 'Apptoms/Classes/Helium/**/*'
     sp.frameworks = 'UIKit'
   end

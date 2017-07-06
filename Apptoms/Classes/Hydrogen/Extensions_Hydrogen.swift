@@ -36,7 +36,7 @@ public extension UIColor {
 		self.init(red: red / 255.0, green: green / 255.0, blue: blue / 255.0, alpha: alpha / 255.0)
 	}
 	
-	public static var placerHolder: UIColor {
+	public static var placeHolder: UIColor {
 		get {
 			return UIColor(hex: "C7C7CD")
 		}

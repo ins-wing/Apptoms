@@ -14,7 +14,7 @@
 		2AAFD9DCABFF2401947C606C344BB0DD /* SwiftMsgPack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A4B3FE474C951C56655EE6DD82894 /* SwiftMsgPack.framework */; };
 		441E44A597C6B94AD9287DF0949025E7 /* SwiftMsgPack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBD7C9A297D9D831B6EE367A643A498 /* SwiftMsgPack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		473051301F0A4C3B00FC5B84 /* Extensions_Beryllium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473051271F0A4C3B00FC5B84 /* Extensions_Beryllium.swift */; };
-		473051311F0A4C3B00FC5B84 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473051291F0A4C3B00FC5B84 /* Views.swift */; };
+		473051311F0A4C3B00FC5B84 /* Views_Helium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473051291F0A4C3B00FC5B84 /* Views_Helium.swift */; };
 		473051321F0A4C3B00FC5B84 /* Extensions_Hydrogen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4730512B1F0A4C3B00FC5B84 /* Extensions_Hydrogen.swift */; };
 		473051331F0A4C3B00FC5B84 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4730512C1F0A4C3B00FC5B84 /* Random.swift */; };
 		473051341F0A4C3B00FC5B84 /* AtURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4730512E1F0A4C3B00FC5B84 /* AtURLSession.swift */; };
@@ -69,7 +69,7 @@
 		3B7D0D978A8CA4E9DDB7739F59B04416 /* Pods-Apptoms_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apptoms_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3CAF4C60C31ED28C609578F54ABCF95C /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = Sources/SwiftMsgPack/Commons.swift; sourceTree = "<group>"; };
 		473051271F0A4C3B00FC5B84 /* Extensions_Beryllium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions_Beryllium.swift; sourceTree = "<group>"; };
-		473051291F0A4C3B00FC5B84 /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		473051291F0A4C3B00FC5B84 /* Views_Helium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views_Helium.swift; sourceTree = "<group>"; };
 		4730512B1F0A4C3B00FC5B84 /* Extensions_Hydrogen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions_Hydrogen.swift; sourceTree = "<group>"; };
 		4730512C1F0A4C3B00FC5B84 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		4730512E1F0A4C3B00FC5B84 /* AtURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtURLSession.swift; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 		473051281F0A4C3B00FC5B84 /* Helium */ = {
 			isa = PBXGroup;
 			children = (
-				473051291F0A4C3B00FC5B84 /* Views.swift */,
+				473051291F0A4C3B00FC5B84 /* Views_Helium.swift */,
 			);
 			path = Helium;
 			sourceTree = "<group>";
@@ -524,7 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				473051311F0A4C3B00FC5B84 /* Views.swift in Sources */,
+				473051311F0A4C3B00FC5B84 /* Views_Helium.swift in Sources */,
 				473051321F0A4C3B00FC5B84 /* Extensions_Hydrogen.swift in Sources */,
 				473051331F0A4C3B00FC5B84 /* Random.swift in Sources */,
 				473051341F0A4C3B00FC5B84 /* AtURLSession.swift in Sources */,
