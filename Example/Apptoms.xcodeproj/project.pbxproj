@@ -345,11 +345,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Apptoms_Example/Pods-Apptoms_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Apptoms/Apptoms.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftMsgPack/SwiftMsgPack.framework",
+				"${BUILT_PRODUCTS_DIR}/UIFontComplete/UIFontComplete.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apptoms.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMsgPack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIFontComplete.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
