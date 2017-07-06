@@ -8,8 +8,8 @@
 
 import UIKit
 
-@IBDesignable public class AtView: UIView {
-	@IBInspectable var cornerRadius: CGFloat {
+@IBDesignable open class AtView: UIView {
+	@IBInspectable public var cornerRadius: CGFloat {
 		set {
 			clipsToBounds = (newValue != 0)
 
@@ -25,7 +25,7 @@ import UIKit
 		}
 	}
 
-	@IBInspectable var borderWidth: CGFloat {
+	@IBInspectable public var borderWidth: CGFloat {
 		set {
 			layer.borderWidth = newValue
 		}
@@ -34,7 +34,7 @@ import UIKit
 		}
 	}
 
-	@IBInspectable var borderColor: UIColor? {
+	@IBInspectable public var borderColor: UIColor? {
 		set {
 			layer.borderColor = newValue?.cgColor
 		}
@@ -43,13 +43,13 @@ import UIKit
 		}
 	}
 
-	@IBInspectable var circleMask: Bool = false {
+	@IBInspectable public var circleMask: Bool = false {
 		willSet {
 			cornerRadius = newValue ? -1 : 0
 		}
 	}
 
-	override public func prepareForInterfaceBuilder() {
+	override open func prepareForInterfaceBuilder() {
 		super.prepareForInterfaceBuilder()
 
 		if (circleMask) {
@@ -63,13 +63,13 @@ import UIKit
 		layer.borderColor = borderColor?.cgColor
 	}
 	
-	override public func awakeFromNib() {
+	override open func awakeFromNib() {
 		super.awakeFromNib()
 		
 		
 	}
 	
-	override public func layoutSubviews() {
+	override open func layoutSubviews() {
 		super.layoutSubviews()
 		
 		if (circleMask) {
@@ -81,81 +81,8 @@ import UIKit
 	}
 }
 
-@IBDesignable public class AtImageView: UIImageView {
-	@IBInspectable var cornerRadius: CGFloat {
-		set {
-			clipsToBounds = (newValue != 0)
-			
-			if (newValue < 0) {
-				layer.cornerRadius = min(frame.size.width, frame.size.height) / 2.0
-			}
-			else {
-				layer.cornerRadius = newValue
-			}
-		}
-		get {
-			return layer.cornerRadius
-		}
-	}
-	
-	@IBInspectable var borderWidth: CGFloat {
-		set {
-			layer.borderWidth = newValue
-		}
-		get {
-			return layer.borderWidth
-		}
-	}
-	
-	@IBInspectable var borderColor: UIColor? {
-		set {
-			layer.borderColor = newValue?.cgColor
-		}
-		get {
-			return UIColor(cgColor: layer.borderColor!)
-		}
-	}
-	
-	@IBInspectable var circleMask: Bool = false {
-		willSet {
-			cornerRadius = newValue ? -1 : 0
-		}
-	}
-	
-	override public func prepareForInterfaceBuilder() {
-		super.prepareForInterfaceBuilder()
-		
-		if (circleMask) {
-			layer.cornerRadius = min(frame.size.width, frame.size.height) / 2.0
-		}
-		else {
-			layer.cornerRadius = cornerRadius
-		}
-		
-		layer.borderWidth = borderWidth
-		layer.borderColor = borderColor?.cgColor
-	}
-	
-	override public func awakeFromNib() {
-		super.awakeFromNib()
-		
-		
-	}
-	
-	override public func layoutSubviews() {
-		super.layoutSubviews()
-		
-		if (circleMask) {
-			layer.cornerRadius = min(frame.size.width, frame.size.height) / 2.0
-		}
-		else {
-			layer.cornerRadius = cornerRadius
-		}
-	}
-}
-
-@IBDesignable public class AtButton: UIButton {
-	@IBInspectable var cornerRadius: CGFloat {
+@IBDesignable open class AtImageView: UIImageView {
+	@IBInspectable public var cornerRadius: CGFloat {
 		set {
 			clipsToBounds = (newValue != 0)
 			
@@ -171,7 +98,7 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var borderWidth: CGFloat {
+	@IBInspectable public var borderWidth: CGFloat {
 		set {
 			layer.borderWidth = newValue
 		}
@@ -180,7 +107,7 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var borderColor: UIColor? {
+	@IBInspectable public var borderColor: UIColor? {
 		set {
 			layer.borderColor = newValue?.cgColor
 		}
@@ -189,13 +116,13 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var circleMask: Bool = false {
+	@IBInspectable public var circleMask: Bool = false {
 		willSet {
 			cornerRadius = newValue ? -1 : 0
 		}
 	}
 	
-	override public func prepareForInterfaceBuilder() {
+	override open func prepareForInterfaceBuilder() {
 		super.prepareForInterfaceBuilder()
 		
 		if (circleMask) {
@@ -209,13 +136,13 @@ import UIKit
 		layer.borderColor = borderColor?.cgColor
 	}
 	
-	override public func awakeFromNib() {
+	override open func awakeFromNib() {
 		super.awakeFromNib()
 		
 		
 	}
 	
-	override public func layoutSubviews() {
+	override open func layoutSubviews() {
 		super.layoutSubviews()
 		
 		if (circleMask) {
@@ -227,8 +154,8 @@ import UIKit
 	}
 }
 
-@IBDesignable public class AtLabel: UILabel {
-	@IBInspectable var cornerRadius: CGFloat {
+@IBDesignable open class AtButton: UIButton {
+	@IBInspectable public var cornerRadius: CGFloat {
 		set {
 			clipsToBounds = (newValue != 0)
 			
@@ -244,7 +171,7 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var borderWidth: CGFloat {
+	@IBInspectable public var borderWidth: CGFloat {
 		set {
 			layer.borderWidth = newValue
 		}
@@ -253,7 +180,7 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var borderColor: UIColor? {
+	@IBInspectable public var borderColor: UIColor? {
 		set {
 			layer.borderColor = newValue?.cgColor
 		}
@@ -262,13 +189,13 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var circleMask: Bool = false {
+	@IBInspectable public var circleMask: Bool = false {
 		willSet {
 			cornerRadius = newValue ? -1 : 0
 		}
 	}
 	
-	override public func prepareForInterfaceBuilder() {
+	override open func prepareForInterfaceBuilder() {
 		super.prepareForInterfaceBuilder()
 		
 		if (circleMask) {
@@ -282,13 +209,13 @@ import UIKit
 		layer.borderColor = borderColor?.cgColor
 	}
 	
-	override public func awakeFromNib() {
+	override open func awakeFromNib() {
 		super.awakeFromNib()
 		
 		
 	}
 	
-	override public func layoutSubviews() {
+	override open func layoutSubviews() {
 		super.layoutSubviews()
 		
 		if (circleMask) {
@@ -300,8 +227,8 @@ import UIKit
 	}
 }
 
-@IBDesignable public class AtTextField: UITextField {
-	@IBInspectable var cornerRadius: CGFloat {
+@IBDesignable open class AtLabel: UILabel {
+	@IBInspectable public var cornerRadius: CGFloat {
 		set {
 			clipsToBounds = (newValue != 0)
 			
@@ -317,7 +244,7 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var borderWidth: CGFloat {
+	@IBInspectable public var borderWidth: CGFloat {
 		set {
 			layer.borderWidth = newValue
 		}
@@ -326,7 +253,7 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var borderColor: UIColor? {
+	@IBInspectable public var borderColor: UIColor? {
 		set {
 			layer.borderColor = newValue?.cgColor
 		}
@@ -335,13 +262,13 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var circleMask: Bool = false {
+	@IBInspectable public var circleMask: Bool = false {
 		willSet {
 			cornerRadius = newValue ? -1 : 0
 		}
 	}
 	
-	override public func prepareForInterfaceBuilder() {
+	override open func prepareForInterfaceBuilder() {
 		super.prepareForInterfaceBuilder()
 		
 		if (circleMask) {
@@ -355,13 +282,12 @@ import UIKit
 		layer.borderColor = borderColor?.cgColor
 	}
 	
-	override public func awakeFromNib() {
+	override open func awakeFromNib() {
 		super.awakeFromNib()
-		
 		
 	}
 	
-	override public func layoutSubviews() {
+	override open func layoutSubviews() {
 		super.layoutSubviews()
 		
 		if (circleMask) {
@@ -373,7 +299,79 @@ import UIKit
 	}
 }
 
-@IBDesignable public class AtTextView: UITextView {
+@IBDesignable open class AtTextField: UITextField {
+	@IBInspectable public var cornerRadius: CGFloat {
+		set {
+			clipsToBounds = (newValue != 0)
+			
+			if (newValue < 0) {
+				layer.cornerRadius = min(frame.size.width, frame.size.height) / 2.0
+			}
+			else {
+				layer.cornerRadius = newValue
+			}
+		}
+		get {
+			return layer.cornerRadius
+		}
+	}
+	
+	@IBInspectable public var borderWidth: CGFloat {
+		set {
+			layer.borderWidth = newValue
+		}
+		get {
+			return layer.borderWidth
+		}
+	}
+	
+	@IBInspectable public var borderColor: UIColor? {
+		set {
+			layer.borderColor = newValue?.cgColor
+		}
+		get {
+			return UIColor(cgColor: layer.borderColor!)
+		}
+	}
+	
+	@IBInspectable public var circleMask: Bool = false {
+		willSet {
+			cornerRadius = newValue ? -1 : 0
+		}
+	}
+	
+	override open func prepareForInterfaceBuilder() {
+		super.prepareForInterfaceBuilder()
+		
+		if (circleMask) {
+			layer.cornerRadius = min(frame.size.width, frame.size.height) / 2.0
+		}
+		else {
+			layer.cornerRadius = cornerRadius
+		}
+		
+		layer.borderWidth = borderWidth
+		layer.borderColor = borderColor?.cgColor
+	}
+	
+	override open func awakeFromNib() {
+		super.awakeFromNib()
+		
+	}
+	
+	override open func layoutSubviews() {
+		super.layoutSubviews()
+		
+		if (circleMask) {
+			layer.cornerRadius = min(frame.size.width, frame.size.height) / 2.0
+		}
+		else {
+			layer.cornerRadius = cornerRadius
+		}
+	}
+}
+
+@IBDesignable open class AtTextView: UITextView {
 	public let placeHolderLabel: AtLabel = AtLabel()
 	private var placeholderLabelConstraints = [NSLayoutConstraint]()
 	
@@ -404,7 +402,7 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var placeHolder: String {
+	@IBInspectable public var placeHolder: String {
 		set {
 			placeHolderLabel.text = newValue
 		}
@@ -413,7 +411,7 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var cornerRadius: CGFloat {
+	@IBInspectable public var cornerRadius: CGFloat {
 		set {
 			clipsToBounds = (newValue != 0)
 			
@@ -429,7 +427,7 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var borderWidth: CGFloat {
+	@IBInspectable public var borderWidth: CGFloat {
 		set {
 			layer.borderWidth = newValue
 		}
@@ -438,7 +436,7 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var borderColor: UIColor? {
+	@IBInspectable public var borderColor: UIColor? {
 		set {
 			layer.borderColor = newValue?.cgColor
 		}
@@ -447,13 +445,13 @@ import UIKit
 		}
 	}
 	
-	@IBInspectable var circleMask: Bool = false {
+	@IBInspectable public var circleMask: Bool = false {
 		willSet {
 			cornerRadius = newValue ? -1 : 0
 		}
 	}
 	
-	override public func prepareForInterfaceBuilder() {
+	override open func prepareForInterfaceBuilder() {
 		super.prepareForInterfaceBuilder()
 		
 		if (circleMask) {
@@ -477,12 +475,12 @@ import UIKit
 		placeHolderInit()
 	}
 	
-	override public func awakeFromNib() {
+	override open func awakeFromNib() {
 		super.awakeFromNib()
 		placeHolderInit()
 	}
 	
-	override public func layoutSubviews() {
+	override open func layoutSubviews() {
 		super.layoutSubviews()
 		
 		if (circleMask) {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206F74D91F0E6AE000F1731A /* HeliumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F74D81F0E6AE000F1731A /* HeliumViewController.swift */; };
 		208D83731F089D4100851EA6 /* Helium.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208D83721F089D4100851EA6 /* Helium.storyboard */; };
 		20F52BE11F07F097002249DB /* HydrogenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F52BE01F07F097002249DB /* HydrogenViewController.swift */; };
 		20F52BE51F07F2EA002249DB /* Hydrogen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F52BE41F07F2EA002249DB /* Hydrogen.storyboard */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		140BAE692F17A64304F97FEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		16ACF05122BCB52FA91F4511 /* Pods-Apptoms_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apptoms_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Apptoms_Tests/Pods-Apptoms_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		206F74D81F0E6AE000F1731A /* HeliumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeliumViewController.swift; path = Helium/HeliumViewController.swift; sourceTree = "<group>"; };
 		208D83721F089D4100851EA6 /* Helium.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Helium.storyboard; path = Helium/Helium.storyboard; sourceTree = "<group>"; };
 		20F52BE01F07F097002249DB /* HydrogenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HydrogenViewController.swift; path = Hydrogen/HydrogenViewController.swift; sourceTree = "<group>"; };
 		20F52BE41F07F2EA002249DB /* Hydrogen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Hydrogen.storyboard; path = Hydrogen/Hydrogen.storyboard; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				208D83721F089D4100851EA6 /* Helium.storyboard */,
+				206F74D81F0E6AE000F1731A /* HeliumViewController.swift */,
 			);
 			name = Helium;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				20F52BE11F07F097002249DB /* HydrogenViewController.swift in Sources */,
 				20F52BE91F07F491002249DB /* HydrogenStringViewController.swift in Sources */,
 				20F52BE71F07F479002249DB /* HydrogenColorViewController.swift in Sources */,
+				206F74D91F0E6AE000F1731A /* HeliumViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

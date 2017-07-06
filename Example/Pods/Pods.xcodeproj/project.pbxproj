@@ -11,7 +11,7 @@
 		0BAC4A34E88BA54EFE865DE5EE4A266C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F85E4CCC8F6012B30335EA7A9B10E26 /* Foundation.framework */; };
 		1EAE75749448477D816DF78C60B53470 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A99F4A691FDFD555834664480E76BB5 /* Decoder.swift */; };
 		25288CAE81EBA08CA5674435A1981B77 /* Pods-Apptoms_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6F565B7AF7EC99E85856C0487D8CC /* Pods-Apptoms_Example-dummy.m */; };
-		2AAFD9DCABFF2401947C606C344BB0DD /* SwiftMsgPack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A4B3FE474C951C56655EE6DD82894 /* SwiftMsgPack.framework */; };
+		2AAFD9DCABFF2401947C606C344BB0DD /* SwiftMsgPack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A4B3FE474C951C56655EE6DD82894 /* SwiftMsgPack.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		441E44A597C6B94AD9287DF0949025E7 /* SwiftMsgPack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBD7C9A297D9D831B6EE367A643A498 /* SwiftMsgPack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		473051301F0A4C3B00FC5B84 /* Extensions_Beryllium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473051271F0A4C3B00FC5B84 /* Extensions_Beryllium.swift */; };
 		473051311F0A4C3B00FC5B84 /* Views_Helium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473051291F0A4C3B00FC5B84 /* Views_Helium.swift */; };
