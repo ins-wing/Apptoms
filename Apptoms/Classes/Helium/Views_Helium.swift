@@ -372,45 +372,39 @@ import UIKit
 }
 
 @IBDesignable open class AtTextView: UITextView {
-	public let placeHolderLabel: AtLabel = AtLabel()
-	private var placeholderLabelConstraints = [NSLayoutConstraint]()
-	
-	public var placeHolderFont: UIFont {
+	private let placeholderLabel = UILabel()
+
+	@IBInspectable public var placeholder: String {
 		set {
-			placeHolderLabel.font = newValue
+			placeholderLabel.text = newValue
+			placeholderFrameUpdate()
 		}
 		get {
-			return placeHolderLabel.font
+			return placeholderLabel.text!
 		}
 	}
-	
-	public var placeHolderTextColor: UIColor {
+
+	@IBInspectable public var placeholderTextColor: UIColor {
 		set {
-			placeHolderLabel.textColor = newValue
+			placeholderLabel.textColor = newValue
 		}
 		get {
-			return placeHolderLabel.textColor
+			return placeholderLabel.textColor
 		}
 	}
-	
-	public var placeHolderTextAlignment: NSTextAlignment {
-		set {
-			placeHolderLabel.textAlignment = newValue
-		}
-		get {
-			return placeHolderLabel.textAlignment
+
+	override open var textAlignment: NSTextAlignment {
+		didSet {
+			placeholderLabel.textAlignment = textAlignment
 		}
 	}
-	
-	@IBInspectable public var placeHolder: String {
-		set {
-			placeHolderLabel.text = newValue
-		}
-		get {
-			return placeHolderLabel.text!
+
+	override open var font: UIFont? {
+		didSet {
+			placeholderLabel.font = font
 		}
 	}
-	
+
 	@IBInspectable public var cornerRadius: CGFloat {
 		set {
 			clipsToBounds = (newValue != 0)
@@ -463,21 +457,35 @@ import UIKit
 		
 		layer.borderWidth = borderWidth
 		layer.borderColor = borderColor?.cgColor
+
+		placeholderInit()
 	}
-	
-	override public init(frame: CGRect, textContainer: NSTextContainer?) {
-		super.init(frame: frame, textContainer: textContainer)
-		placeHolderInit()
+
+	override open var text: String? {
+		didSet {
+			textValueChanged()
+		}
 	}
-	
+
+	override open var attributedText: NSAttributedString! {
+		didSet {
+			textValueChanged()
+		}
+	}
+
 	required public init?(coder aDecoder: NSCoder) {
 		super.init(coder: aDecoder)
-		placeHolderInit()
+
+	}
+
+	override public init(frame: CGRect, textContainer: NSTextContainer?) {
+		super.init(frame: frame, textContainer: textContainer)
+		placeholderInit()
 	}
 	
 	override open func awakeFromNib() {
 		super.awakeFromNib()
-		placeHolderInit()
+		placeholderInit()
 	}
 	
 	override open func layoutSubviews() {
@@ -489,49 +497,43 @@ import UIKit
 		else {
 			layer.cornerRadius = cornerRadius
 		}
-		
-		placeHolderLabel.preferredMaxLayoutWidth = textContainer.size.width - textContainer.lineFragmentPadding * 2.0
+
+		placeholderFrameUpdate()
 	}
-	
-	private func placeHolderInit() {
-		placeHolderFont = font!
-		placeHolderTextColor = UIColor.placeHolder
-		placeHolderTextAlignment = textAlignment
-		
-		placeHolderLabel.numberOfLines = 0
-		placeHolderLabel.backgroundColor = UIColor.clear
-		
-		addSubview(placeHolderLabel)
-		placeHolderConstraintsUpdate()
+
+	private func placeholderInit() {
+		NotificationCenter.default.addObserver(self, selector: #selector(AtTextView.textValueChanged), name: NSNotification.Name.UITextViewTextDidChange, object: nil)
+
+		placeholderLabel.backgroundColor = UIColor.clear
+		placeholderLabel.isUserInteractionEnabled = false
+		placeholderLabel.textAlignment = textAlignment
+		placeholderLabel.font = font
+		placeholderLabel.numberOfLines = 0
+		placeholderTextColor = UIColor.placeholder
+
+		placeholderFrameUpdate()
+		self.addSubview(placeholderLabel)
+
+		textValueChanged()
 	}
-	
-	override open var textContainerInset: UIEdgeInsets {
-		didSet {
-			placeHolderConstraintsUpdate()
+
+	private func placeholderFrameUpdate() {
+		placeholderLabel.frame = CGRect(x: textContainerInset.left+textContainer.lineFragmentPadding, y: textContainerInset.top, width: frame.size.width-textContainerInset.left-textContainer.lineFragmentPadding-textContainerInset.right, height: frame.size.height-textContainerInset.top-textContainerInset.bottom)
+
+		placeholderLabel.sizeToFit()
+	}
+
+	private var isPlaceholderShown: Bool = true {
+		willSet {
+			placeholderLabel.isHidden = !newValue
 		}
 	}
-	
-	private func placeHolderConstraintsUpdate() {
-		var newConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|-(\(textContainerInset.left + textContainer.lineFragmentPadding))-[placeholder]",
-			options: [],
-			metrics: nil,
-			views: ["placeholder": placeHolderLabel])
-		newConstraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-(\(textContainerInset.top))-[placeholder]",
-			options: [],
-			metrics: nil,
-			views: ["placeholder": placeHolderLabel])
-		newConstraints.append(NSLayoutConstraint(
-			item: placeHolderLabel,
-			attribute: .width,
-			relatedBy: .equal,
-			toItem: self,
-			attribute: .width,
-			multiplier: 1.0,
-			constant: -(textContainerInset.left + textContainerInset.right + textContainer.lineFragmentPadding * 2.0)
-		))
-		
-		removeConstraints(placeholderLabelConstraints)
-		addConstraints(newConstraints)
-		placeholderLabelConstraints = newConstraints
+
+	@objc private func textValueChanged() {
+		isPlaceholderShown = text?.isEmpty ?? true
+	}
+
+	deinit {
+		NotificationCenter.default.removeObserver(self)
 	}
 }
