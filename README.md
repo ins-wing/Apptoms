@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/Apptoms.svg?style=flat)](http://cocoapods.org/pods/Apptoms)
 [![License](https://img.shields.io/cocoapods/l/Apptoms.svg?style=flat)](http://cocoapods.org/pods/Apptoms)
 [![Platform](https://img.shields.io/cocoapods/p/Apptoms.svg?style=flat)](http://cocoapods.org/pods/Apptoms)
+![](https://img.shields.io/badge/language-swift-orange.svg)
 
 ## Example
 
@@ -24,6 +25,8 @@ You can add also install other Apptoms elements by adding the subspecs in Podfil
 ```ruby
 pod "Apptoms/Hydrogen"
 pod "Apptoms/Helium"
+pod "Apptoms/Lithium"
+pod "Apptoms/Beryllium"
 ```
 
 ## Apptoms
@@ -31,6 +34,10 @@ pod "Apptoms/Helium"
 ## Hydrogen@Apptoms
 
 ## Helium@Apptoms
+
+## Lithium@Apptoms
+
+## Beryllium@Apptoms
 
 ## Author
 
