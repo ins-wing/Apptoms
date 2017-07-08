@@ -59,3 +59,13 @@ public extension String {
 		}
 	}
 }
+
+public extension Array where Element: Equatable {
+	mutating public func remove(object: Element) -> Int? {
+		let removeIndex = index(of: object)
+		if (removeIndex != nil) {
+			self.remove(at: removeIndex!)
+		}
+		return removeIndex
+	}
+}
