@@ -13,7 +13,8 @@ class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+		//print("1234567890".sha1?.hex ?? "")
     }
 
     override func didReceiveMemoryWarning() {

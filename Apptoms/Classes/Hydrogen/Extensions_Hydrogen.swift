@@ -45,8 +45,10 @@ public extension UIColor {
 
 public extension String {
 	public var json: Any? {
-		let object = try? JSONSerialization.jsonObject(with: self.data(using: .utf8)!, options: .allowFragments)
-		return object
+		get {
+			let object = try? JSONSerialization.jsonObject(with: self.data(using: .utf8)!, options: .allowFragments)
+			return object
+		}
 	}
 
 	public init?(json: Any) {

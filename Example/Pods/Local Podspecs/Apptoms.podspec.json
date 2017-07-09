@@ -1,6 +1,6 @@
 {
   "name": "Apptoms",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "summary": "Apptoms Archtecture.",
   "description": "Combine different Apptoms Elements to create a new compound.",
   "homepage": "https://github.com/ins-wing/Apptoms",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ins-wing/Apptoms.git",
-    "tag": "0.0.11"
+    "tag": "0.0.12"
   },
   "module_name": "Apptoms",
   "platforms": {
@@ -57,14 +57,20 @@
     {
       "name": "Beryllium",
       "dependencies": {
-        "Apptoms/Lithium": [
-
-        ],
         "SwiftMsgPack": [
 
         ]
       },
       "source_files": "Apptoms/Classes/Beryllium/**/*"
+    },
+    {
+      "name": "Boron",
+      "dependencies": {
+        "libCommonCrypto": [
+
+        ]
+      },
+      "source_files": "Apptoms/Classes/Boron/**/*"
     }
   ]
 }

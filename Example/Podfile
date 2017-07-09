@@ -1,11 +1,14 @@
 use_frameworks!
 
+plugin 'cocoapods-wholemodule'
+
 target 'Apptoms_Example' do
   pod 'Apptoms', :path => '../'
   pod 'Apptoms/Hydrogen', :path => '../'
   pod 'Apptoms/Helium', :path => '../'
   pod 'Apptoms/Lithium', :path => '../'
   pod 'Apptoms/Beryllium', :path => '../'
+  pod 'Apptoms/Boron', :path => '../'
   
   target 'Apptoms_Tests' do
     inherit! :search_paths

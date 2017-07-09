@@ -53,9 +53,13 @@ Combine different Apptoms Elements to create a new compound.
   end
 
   s.subspec 'Beryllium' do |sp|
-    sp.dependency 'Apptoms/Lithium'
     sp.dependency 'SwiftMsgPack'
     sp.source_files = 'Apptoms/Classes/Beryllium/**/*'
+  end
+
+  s.subspec 'Boron' do |sp|
+    sp.dependency 'libCommonCrypto'
+    sp.source_files = 'Apptoms/Classes/Boron/**/*'
   end
 
   # s.resource_bundles = {

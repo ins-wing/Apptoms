@@ -27,17 +27,26 @@ pod "Apptoms/Hydrogen"
 pod "Apptoms/Helium"
 pod "Apptoms/Lithium"
 pod "Apptoms/Beryllium"
+pod "Apptoms/Boron"
 ```
 
 ## Apptoms
 
 ## Hydrogen@Apptoms
+Basic String, UIColor, UIFont extensions
 
 ## Helium@Apptoms
+Basic UI Elements
 
 ## Lithium@Apptoms
+Dependency of Hydrogen
+URLSession & caching management
 
 ## Beryllium@Apptoms
+Dependency of Lithium
+Encode & Decode on MessagePack, BSON, etc
+
+## Boron@Apptoms
 
 ## Author
 

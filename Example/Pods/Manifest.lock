@@ -1,27 +1,31 @@
 PODS:
-  - Apptoms (0.0.11):
-    - Apptoms/Apptoms (= 0.0.11)
+  - Apptoms (0.0.12):
+    - Apptoms/Apptoms (= 0.0.12)
     - UIFontComplete
-  - Apptoms/Apptoms (0.0.11):
+  - Apptoms/Apptoms (0.0.12):
     - UIFontComplete
-  - Apptoms/Beryllium (0.0.11):
-    - Apptoms/Lithium
+  - Apptoms/Beryllium (0.0.12):
     - SwiftMsgPack
     - UIFontComplete
-  - Apptoms/Helium (0.0.11):
+  - Apptoms/Boron (0.0.12):
+    - libCommonCrypto
+    - UIFontComplete
+  - Apptoms/Helium (0.0.12):
     - Apptoms/Hydrogen
     - UIFontComplete
-  - Apptoms/Hydrogen (0.0.11):
+  - Apptoms/Hydrogen (0.0.12):
     - UIFontComplete
-  - Apptoms/Lithium (0.0.11):
+  - Apptoms/Lithium (0.0.12):
     - Apptoms/Hydrogen
     - UIFontComplete
+  - libCommonCrypto (0.1.1)
   - SwiftMsgPack (0.9.1)
   - UIFontComplete (1.0.0)
 
 DEPENDENCIES:
   - Apptoms (from `../`)
   - Apptoms/Beryllium (from `../`)
+  - Apptoms/Boron (from `../`)
   - Apptoms/Helium (from `../`)
   - Apptoms/Hydrogen (from `../`)
   - Apptoms/Lithium (from `../`)
@@ -31,10 +35,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Apptoms: 0f7612aed962f900d66146d7ce48f3cde7d78375
+  Apptoms: 1f54ee1884e40fa012df8a5bbaf489edc8392481
+  libCommonCrypto: 8bc2f53375ef9815ddd9dd663e110e1cced41747
   SwiftMsgPack: abcd2e1b12dc74b0422acd13a28d44c67a4d3288
   UIFontComplete: 4924a60fdf0438ae65266281d5b814a576c5c1fe
 
-PODFILE CHECKSUM: 86acfd4ad8db9c1831cb97e6562c7d7fe43b960d
+PODFILE CHECKSUM: 74f441937b00927a3ea0f4ba672acfb1d771cc77
 
 COCOAPODS: 1.3.0.beta.2

@@ -7,147 +7,192 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		010FA632EAB7BE5DE5D4EEA6451EEB62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE68E34732733457A6960CD7F24FEFB /* Foundation.framework */; };
-		066875BDA846FE88E6266DD2FEB3992D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE68E34732733457A6960CD7F24FEFB /* Foundation.framework */; };
-		0B23E1556F6A256D114E6E096AF5BFEA /* UIFontComplete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C48A08845BD9A78FD97D0BADC15E6027 /* UIFontComplete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		206F74EC1F0E8C5800F1731A /* Extensions_Beryllium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F74E31F0E8C5800F1731A /* Extensions_Beryllium.swift */; };
-		206F74ED1F0E8C5800F1731A /* Views_Helium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F74E51F0E8C5800F1731A /* Views_Helium.swift */; };
-		206F74EE1F0E8C5800F1731A /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F74E71F0E8C5800F1731A /* Random.swift */; };
-		206F74EF1F0E8C5800F1731A /* Extensions_Hydrogen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F74E81F0E8C5800F1731A /* Extensions_Hydrogen.swift */; };
-		206F74F01F0E8C5800F1731A /* Extensions_Lithium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F74EA1F0E8C5800F1731A /* Extensions_Lithium.swift */; };
-		206F74F11F0E8C5800F1731A /* AtURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F74EB1F0E8C5800F1731A /* AtURLSession.swift */; };
-		27C45C614194AD8BDD8A2C0D6D9B00C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEB667D29BD254122E102824065ACFC /* UIKit.framework */; };
-		38CB64F674DDFC8CF40D1AB8DD4F149E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE68E34732733457A6960CD7F24FEFB /* Foundation.framework */; };
-		46ADAB2350079D8B9470777D43C01D92 /* Apptoms-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C5F8B6598D21CD7BD9FE0FC2365F6 /* Apptoms-dummy.m */; };
-		5765ADE8ABC09CE7799211EC5578181F /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1880052406B84F2ADE9C5790F1BAAC6 /* UIFont+Extension.swift */; };
-		60AE441A3FC11237FD00CD7C648D4C8A /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B137D9C14B469DA188EA69068F05D619 /* Commons.swift */; };
-		64820EA56ED7AD30F5B636B70A4024AD /* Apptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D4A91CDAAA76A0F15F6625809C8C3 /* Apptoms.swift */; };
-		70F29F17AAA26DBB99B1F408076712B0 /* UIFontComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FE19767AADB6866442094B39991AE3 /* UIFontComplete.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		7BF7A424F4C6D5D70E120888DEE8FD5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE68E34732733457A6960CD7F24FEFB /* Foundation.framework */; };
-		7DC6EB8C3BDA0726251D6016BF92735C /* SwiftMsgPack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 020D90BABFE22C154C1943EA34F90A02 /* SwiftMsgPack-dummy.m */; };
+		010FA632EAB7BE5DE5D4EEA6451EEB62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC31BCE95629B66DBE8E10479DF4B79 /* Foundation.framework */; };
+		058FAAF92B1465517FBA534438092DDD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F37DE72D0489F05947A0B38206D156 /* UIFont+Extension.swift */; };
+		10A1FE6DCCF9577D4373B71D11FF5AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC31BCE95629B66DBE8E10479DF4B79 /* Foundation.framework */; };
+		1430C61BB132A6DE34FD1AAA60B138C0 /* Pods-Apptoms_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA8333DBB50CD329E015334FB7C4E87 /* Pods-Apptoms_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15D4F1856103B13E564B9DEEE17CF953 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE93D6618CEF2567A16BFA7A2198F60 /* Decoder.swift */; };
+		1A94C275F1EE9FAB4CDA41E2E947DC08 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D0CC9A41DD508A2D67DCC765E0DDFF /* Encoder.swift */; };
+		1B656F1211C600F2AB6E7BA199DE94DC /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD3B7E1328976F443C2E80B7A4BB8A /* Commons.swift */; };
+		1D9CD1EEAC2DFBB4CF48B245187F4CAF /* Extensions_Hydrogen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0B787D65E00AA7EEE0238BA02A5085 /* Extensions_Hydrogen.swift */; };
+		21A7131D56B77B90747202F1664DA710 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3953740A0A80BC259A08C60C58FE7A1 /* Random.swift */; };
+		27ED9658C44DF77D6665CD747766EFD6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32FF056202439678EAC993AAB1429ED /* Security.framework */; };
+		51687E35AC6DCD3EE050D1256EF779EB /* UIFontComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C646895C1C998879BCEDD3C93ADAD999 /* UIFontComplete.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		67F76E7D30AF3BB17D44C8F5F9F5C3E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC31BCE95629B66DBE8E10479DF4B79 /* Foundation.framework */; };
+		682F4534620487D643EB9DEF81DA01A8 /* CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 8464C3D3CBBC69F530AE5B67E7E4BF02 /* CommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69432C94BC13824C5EB1144A7EBA7370 /* Extensions_Lithium.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0437E55B6CB18A4CCEFEEF86D2A1D08 /* Extensions_Lithium.swift */; };
+		6AC116A19997D420B7D2C41FD2F74DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC31BCE95629B66DBE8E10479DF4B79 /* Foundation.framework */; };
+		70443ED8EBE8544AF0FF5F43E97A201D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC31BCE95629B66DBE8E10479DF4B79 /* Foundation.framework */; };
+		79B5D5DA3B2CB30E71FA8C6DA9DA1205 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BA2A955193EDD5615DD7E44B1134A6 /* UIKit.framework */; };
+		7B46ECF8CD8E25C18AC1B27B0CB0B683 /* Apptoms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE6F6D3403924C3EA0788D6BC3C4350 /* Apptoms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8412C473F6604A7AF434D121D56BD2A8 /* Extensions_Boron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F822D093DC530B895D7D4CD071800AC /* Extensions_Boron.swift */; };
+		858D717A517D94FD03B581414C9A25D5 /* Views_Helium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6432508D2680AA1338251EB01C44C6C2 /* Views_Helium.swift */; };
+		86479BA9E99405A34936C9CE0CBF7EB9 /* Extensions_Beryllium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A76ED6BD5AB2E664606A893FEE67E /* Extensions_Beryllium.swift */; };
 		8D6B9D77933F5F971C86F67BABB93925 /* Pods-Apptoms_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A8DABE4A3E0E23EB16159E84FE37F /* Pods-Apptoms_Tests-dummy.m */; };
-		908843EC648749EACD911F06956FCD9F /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608C661B215EE1FB069F6D23DFF7129A /* FontRepresentable.swift */; };
-		93F19CD269BC8A2300529D2BF7AABC05 /* Pods-Apptoms_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6F565B7AF7EC99E85856C0487D8CC /* Pods-Apptoms_Example-dummy.m */; };
-		9F2C0F3FC5A3B7396707988A272C2904 /* Apptoms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D931FFC2D78A4B780D5557CFD0468B /* Apptoms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A95FFEFA5C0987372A6DD0C35526CFF5 /* SwiftMsgPack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86636B8DDE05BEE080D016970A72B5C7 /* SwiftMsgPack.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AE9F628B058D63F3F26FC23E7E8D013D /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84F25A71543AB2B10833441EDB260E /* Encoder.swift */; };
-		B6822A33D533FE10E7DA814DD96B264D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE68E34732733457A6960CD7F24FEFB /* Foundation.framework */; };
-		B7F56A21FC12F93E0234D8651225FC18 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327C58AB594AE3EC12F3F8075D6C84A /* Decoder.swift */; };
-		BA9FDA3FBAFA94BA784A5718E2329499 /* Pods-Apptoms_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA8333DBB50CD329E015334FB7C4E87 /* Pods-Apptoms_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8A0DDCBA84A6E6F378A9BEB27BCD64D /* UIFontComplete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E423C13D81CA2B02136336CBD06E92F /* UIFontComplete-dummy.m */; };
-		CD981A8A1ACD87CCF42806E3B5C586D1 /* SwiftMsgPack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7752B8446EA3B80E8DA33C4A407432FB /* SwiftMsgPack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923A2F81AD5897BA56FEC64CA1547401 /* UIFontComplete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EB20986ABEA047C19368796DFAB3F3 /* UIFontComplete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC6E124AB407AA5C0A2B301433B2E43F /* Apptoms-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 612B304D9A5F3DC72AD4671D416A2AB8 /* Apptoms-dummy.m */; };
+		AF46099744699C2CE63CE02DA3A1483B /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA40C0F5139B07DFAB68BFC2B6EBE86 /* CommonCrypto.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B2D8500BC6400E75BB4D013BD3CC8C80 /* libCommonCrypto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31734BF006D5085C5AB6F5CBE6662453 /* libCommonCrypto-dummy.m */; };
+		B661508D824DB5CD0D69AC2A7CAF2D87 /* CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6E3766761830BF83C40C3498BFC55 /* CommonCrypto.swift */; };
+		BA58B6670D1A101B98BCAC33E0366FC9 /* SwiftMsgPack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A57DEB1076B0FE9E03C0C0EE6C7BB /* SwiftMsgPack.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CA635D48530F7CA18E9AD3BBE7E75901 /* AtURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FEE9FE7B0BB95C33FD4617ADA3D4B /* AtURLSession.swift */; };
+		CBC550EBF12A010DD3F579CBC78C77AE /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1B4C1F29C9B69A91E6B429800DB1DB /* Font.swift */; };
+		D9EF725A897E89C480035DAA82815047 /* Apptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797DB8E535357CC95A54B9548357C17F /* Apptoms.swift */; };
+		E2330C7689091A37DF89DE41E7B63219 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC31BCE95629B66DBE8E10479DF4B79 /* Foundation.framework */; };
+		E34C080988D7F7F71A9E72637E16E08E /* SwiftMsgPack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 160313607D00297849FD8FB92BF2BC92 /* SwiftMsgPack-dummy.m */; };
+		ECE682219D215007428B65BF5CB17021 /* UIFontComplete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3352AB722C1EE0B9B3E722EC87EB29 /* UIFontComplete-dummy.m */; };
 		EFBCF7DDB8760597541AF45EAA193DD2 /* Pods-Apptoms_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FACA8AA89BFFCD8E2BE3CAE4DD6BAE /* Pods-Apptoms_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6DE068F605D3B2F5E517F7C6BF0738A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78AF5B8CE1635927C35E31590EE8ED /* Font.swift */; };
+		F084286A6D4C0BA9507742C859259C32 /* SwiftMsgPack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9ED699C251627F69D689D892E98D97B /* SwiftMsgPack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F658D1119B99C641F3D753B0B553C5E2 /* Pods-Apptoms_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6F565B7AF7EC99E85856C0487D8CC /* Pods-Apptoms_Example-dummy.m */; };
+		FF6C1BEA0306F9693505AEB2ED8EEE73 /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA0348E0986C660C5ACC9B624758AE3 /* FontRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		357D9F0B5CFDA2A13894D19926C54CE2 /* PBXContainerItemProxy */ = {
+		3F5E78C3CF1D6BCAD1700427A3BC354A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CAAD588CB38B70CDFCD4B2AEB1923AC3;
+			remoteGlobalIDString = 57FECECBBBC70E81071D502577881E53;
+			remoteInfo = libCommonCrypto;
+		};
+		55401A21BBC0C0E13389C2CFEB596582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F28B26969882A2E00153BBA3A9A743B9;
+			remoteInfo = UIFontComplete;
+		};
+		904C377373D40627C3B93BEC58D941C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F28B26969882A2E00153BBA3A9A743B9;
+			remoteInfo = UIFontComplete;
+		};
+		94F0C3D5E56C3128A03B87E37DAB90F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81674864CB17E76C1766C5AE872E6ABB;
 			remoteInfo = Apptoms;
 		};
-		5449CD62F9CC6BECCD09C8ACC9924F85 /* PBXContainerItemProxy */ = {
+		BB88D7BCBE28C909B5E6F4786E4E9D85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 268919BDF083EFA11D05E01CBC122E29;
+			remoteGlobalIDString = F1CD40B951842C0B30D7D5D5CDCE3F71;
 			remoteInfo = SwiftMsgPack;
 		};
-		90614E9670DC905163940D0CA8DDEBDB /* PBXContainerItemProxy */ = {
+		D76ECE9B395B1787D64FD8120571756C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 268919BDF083EFA11D05E01CBC122E29;
+			remoteGlobalIDString = F1CD40B951842C0B30D7D5D5CDCE3F71;
 			remoteInfo = SwiftMsgPack;
 		};
-		BD19FF1CCDBE0C38034C419256DE68EF /* PBXContainerItemProxy */ = {
+		EE58DBD160C389CC971C8A59D6370944 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 202A1D6A14AE537EC4971863218A0A8A;
-			remoteInfo = UIFontComplete;
-		};
-		EC94E35AD120B2A5B7EDA4B90D2378BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 202A1D6A14AE537EC4971863218A0A8A;
-			remoteInfo = UIFontComplete;
+			remoteGlobalIDString = 57FECECBBBC70E81071D502577881E53;
+			remoteInfo = libCommonCrypto;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020D90BABFE22C154C1943EA34F90A02 /* SwiftMsgPack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMsgPack-dummy.m"; sourceTree = "<group>"; };
-		0AEB667D29BD254122E102824065ACFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		03EB20986ABEA047C19368796DFAB3F3 /* UIFontComplete-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFontComplete-umbrella.h"; sourceTree = "<group>"; };
+		065DA6561C145F7C27843C44511399D3 /* Pods_Apptoms_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apptoms_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B05660B67DD7230613BDA7A7D02A96C /* Pods_Apptoms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apptoms_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0B787D65E00AA7EEE0238BA02A5085 /* Extensions_Hydrogen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions_Hydrogen.swift; sourceTree = "<group>"; };
+		129C3069DFB0B68D139B306F65E38EDD /* UIFontComplete-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFontComplete-prefix.pch"; sourceTree = "<group>"; };
+		132A57DEB1076B0FE9E03C0C0EE6C7BB /* SwiftMsgPack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMsgPack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		160313607D00297849FD8FB92BF2BC92 /* SwiftMsgPack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMsgPack-dummy.m"; sourceTree = "<group>"; };
+		173FFB4D7F66C6A72FE507FFFD7AF9FC /* UIFontComplete.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UIFontComplete.modulemap; sourceTree = "<group>"; };
+		194BBF046D4DDB7BEE2DAADB2FECD7AC /* SwiftMsgPack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMsgPack.xcconfig; sourceTree = "<group>"; };
 		1973F44E23754E88D9BDC220FAD29253 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BF387B6CB1F7817211662A4AFA5028B /* UIFontComplete.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UIFontComplete.modulemap; sourceTree = "<group>"; };
+		197EE69BBB8DD1ADF97CC92EC60A9ABA /* Apptoms.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Apptoms.xcconfig; sourceTree = "<group>"; };
 		1C77EB6D9354330464E7AB1212C1B82B /* Pods-Apptoms_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Apptoms_Example.modulemap"; sourceTree = "<group>"; };
 		1DA8333DBB50CD329E015334FB7C4E87 /* Pods-Apptoms_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Apptoms_Example-umbrella.h"; sourceTree = "<group>"; };
-		206F74E31F0E8C5800F1731A /* Extensions_Beryllium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions_Beryllium.swift; sourceTree = "<group>"; };
-		206F74E51F0E8C5800F1731A /* Views_Helium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views_Helium.swift; sourceTree = "<group>"; };
-		206F74E71F0E8C5800F1731A /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		206F74E81F0E8C5800F1731A /* Extensions_Hydrogen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions_Hydrogen.swift; sourceTree = "<group>"; };
-		206F74EA1F0E8C5800F1731A /* Extensions_Lithium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions_Lithium.swift; sourceTree = "<group>"; };
-		206F74EB1F0E8C5800F1731A /* AtURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtURLSession.swift; sourceTree = "<group>"; };
-		3A54EFBEA54E143A2C6E208BE3E19E70 /* Pods_Apptoms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apptoms_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31734BF006D5085C5AB6F5CBE6662453 /* libCommonCrypto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libCommonCrypto-dummy.m"; sourceTree = "<group>"; };
 		3B7D0D978A8CA4E9DDB7739F59B04416 /* Pods-Apptoms_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apptoms_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		58FE19767AADB6866442094B39991AE3 /* UIFontComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIFontComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1B4C1F29C9B69A91E6B429800DB1DB /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Sources/Font.swift; sourceTree = "<group>"; };
+		503D72038435A07E5AF83D73A105663A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5072D6EC4D4BEE6207389E7EE7E96E5D /* SwiftMsgPack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMsgPack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C7BD3EB0784A56D12F14143DDE970D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D0CC9A41DD508A2D67DCC765E0DDFF /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Sources/SwiftMsgPack/Encoder.swift; sourceTree = "<group>"; };
 		591B04124323269FC3248B5282055EB7 /* Pods-Apptoms_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apptoms_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		59BA2A955193EDD5615DD7E44B1134A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B3352AB722C1EE0B9B3E722EC87EB29 /* UIFontComplete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFontComplete-dummy.m"; sourceTree = "<group>"; };
 		5CD6F565B7AF7EC99E85856C0487D8CC /* Pods-Apptoms_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Apptoms_Example-dummy.m"; sourceTree = "<group>"; };
-		605C28431F4FD7A0078D614628545D55 /* Apptoms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Apptoms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		608C661B215EE1FB069F6D23DFF7129A /* FontRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontRepresentable.swift; path = Sources/FontRepresentable.swift; sourceTree = "<group>"; };
-		621AFB59C07BE31B5F37A4BD578E3D7E /* Pods_Apptoms_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apptoms_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE6F6D3403924C3EA0788D6BC3C4350 /* Apptoms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apptoms-umbrella.h"; sourceTree = "<group>"; };
+		612B304D9A5F3DC72AD4671D416A2AB8 /* Apptoms-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Apptoms-dummy.m"; sourceTree = "<group>"; };
 		63368EAEF7D2F2CB4B0D190AD6B3CDFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6432508D2680AA1338251EB01C44C6C2 /* Views_Helium.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Views_Helium.swift; sourceTree = "<group>"; };
 		644D98657AEA5EB64114E14B44D3F7D7 /* Pods-Apptoms_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apptoms_Example.release.xcconfig"; sourceTree = "<group>"; };
 		650FA5758AB2F5C66ADF9C96B01F5394 /* Pods-Apptoms_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Apptoms_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D84F25A71543AB2B10833441EDB260E /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Sources/SwiftMsgPack/Encoder.swift; sourceTree = "<group>"; };
-		6FE68E34732733457A6960CD7F24FEFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6560EC7A9EB811ECF5F396B3A6CF51D9 /* libCommonCrypto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = libCommonCrypto.modulemap; sourceTree = "<group>"; };
+		67F37DE72D0489F05947A0B38206D156 /* UIFont+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "Sources/UIFont+Extension.swift"; sourceTree = "<group>"; };
+		6AC2F8A35974B8D4933F4673C5B9B7BA /* Apptoms-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apptoms-prefix.pch"; sourceTree = "<group>"; };
+		6FA40C0F5139B07DFAB68BFC2B6EBE86 /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E1B1C9B8FE6A28302AA0D400690938 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710A8DABE4A3E0E23EB16159E84FE37F /* Pods-Apptoms_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Apptoms_Tests-dummy.m"; sourceTree = "<group>"; };
 		74B19FD41AC4BC8C689AB33B40C4D34C /* Pods-Apptoms_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Apptoms_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7752B8446EA3B80E8DA33C4A407432FB /* SwiftMsgPack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMsgPack-umbrella.h"; sourceTree = "<group>"; };
-		7E423C13D81CA2B02136336CBD06E92F /* UIFontComplete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFontComplete-dummy.m"; sourceTree = "<group>"; };
-		8327C58AB594AE3EC12F3F8075D6C84A /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/SwiftMsgPack/Decoder.swift; sourceTree = "<group>"; };
-		8330399FAA82E8A8D9D51ECC7AD42858 /* UIFontComplete.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIFontComplete.xcconfig; sourceTree = "<group>"; };
+		797DB8E535357CC95A54B9548357C17F /* Apptoms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Apptoms.swift; sourceTree = "<group>"; };
 		83FACA8AA89BFFCD8E2BE3CAE4DD6BAE /* Pods-Apptoms_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Apptoms_Tests-umbrella.h"; sourceTree = "<group>"; };
-		842D4A91CDAAA76A0F15F6625809C8C3 /* Apptoms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Apptoms.swift; sourceTree = "<group>"; };
-		86636B8DDE05BEE080D016970A72B5C7 /* SwiftMsgPack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMsgPack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87923274760303050F6C6E43886CA896 /* Apptoms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Apptoms.modulemap; sourceTree = "<group>"; };
+		8403A872576BB106DB1CB542335C70FF /* Apptoms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Apptoms.modulemap; sourceTree = "<group>"; };
+		8464C3D3CBBC69F530AE5B67E7E4BF02 /* CommonCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonCrypto.h; path = CommonCrypto/CommonCrypto.h; sourceTree = "<group>"; };
 		897170CDDC9653033AEA6CBE63DB6664 /* Pods-Apptoms_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Apptoms_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BE93D6618CEF2567A16BFA7A2198F60 /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/SwiftMsgPack/Decoder.swift; sourceTree = "<group>"; };
+		8EABC4CD3B74F83647FE5BBC95748B66 /* Apptoms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Apptoms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F822D093DC530B895D7D4CD071800AC /* Extensions_Boron.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions_Boron.swift; sourceTree = "<group>"; };
 		909B40E5914345F713933FFD7447A318 /* Pods-Apptoms_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Apptoms_Example-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		969DE582B08DB873B3D9A434FE4A8162 /* Apptoms.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Apptoms.xcconfig; sourceTree = "<group>"; };
-		974EF76743B73829B874BF1797DB3260 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D4C5F8B6598D21CD7BD9FE0FC2365F6 /* Apptoms-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Apptoms-dummy.m"; sourceTree = "<group>"; };
-		A20DF56A45267B41086FB9A5FD9FFDE8 /* SwiftMsgPack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMsgPack-prefix.pch"; sourceTree = "<group>"; };
+		9C0A76ED6BD5AB2E664606A893FEE67E /* Extensions_Beryllium.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions_Beryllium.swift; sourceTree = "<group>"; };
 		A5B5B7FC2BC2396A6ED63CC8567A84B6 /* Pods-Apptoms_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Apptoms_Tests-resources.sh"; sourceTree = "<group>"; };
-		A5D931FFC2D78A4B780D5557CFD0468B /* Apptoms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apptoms-umbrella.h"; sourceTree = "<group>"; };
+		AAFA26CD5A577E691DCD13B1114E83EA /* SwiftMsgPack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMsgPack-prefix.pch"; sourceTree = "<group>"; };
+		AB58CC5A0630057A07316982B91BA252 /* libCommonCrypto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libCommonCrypto-prefix.pch"; sourceTree = "<group>"; };
+		ABDD3B7E1328976F443C2E80B7A4BB8A /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = Sources/SwiftMsgPack/Commons.swift; sourceTree = "<group>"; };
 		B0217C11BC6A38583E1331E3EE04FF77 /* Pods-Apptoms_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apptoms_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B06921CEE0124FCA9D54F54C01A906DB /* Pods-Apptoms_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apptoms_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B137D9C14B469DA188EA69068F05D619 /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = Sources/SwiftMsgPack/Commons.swift; sourceTree = "<group>"; };
+		B0A7FBFB9253E072B12E12ED92A8E901 /* UIFontComplete.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIFontComplete.xcconfig; sourceTree = "<group>"; };
 		B4A874418502C1F01721F921B82AD832 /* Pods-Apptoms_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apptoms_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C027760A405E7D6383C36815B6A4151D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C48A08845BD9A78FD97D0BADC15E6027 /* UIFontComplete-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFontComplete-umbrella.h"; sourceTree = "<group>"; };
-		C7EAEE2B1E2B9119BB384E5DDC24AD5A /* SwiftMsgPack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftMsgPack.modulemap; sourceTree = "<group>"; };
-		CE6D64E9BC157EAC5A22830EC56996BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8FF57B5BBFCEB70CC8A3162DEEC4A1C /* UIFontComplete-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFontComplete-prefix.pch"; sourceTree = "<group>"; };
+		C3953740A0A80BC259A08C60C58FE7A1 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		C646895C1C998879BCEDD3C93ADAD999 /* UIFontComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIFontComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34FEE9FE7B0BB95C33FD4617ADA3D4B /* AtURLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AtURLSession.swift; sourceTree = "<group>"; };
+		D5BFCF0F34BB7BA4848D3F250C401C88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA0348E0986C660C5ACC9B624758AE3 /* FontRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontRepresentable.swift; path = Sources/FontRepresentable.swift; sourceTree = "<group>"; };
 		DCDFDAC709649D1D2AF5980A310A5B26 /* Pods-Apptoms_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Apptoms_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DFF2AA4C453433771A62C797D41C6ECF /* UIFontComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIFontComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E57BAEB0501BCCF2F7B451C9013DA668 /* SwiftMsgPack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMsgPack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAA023C21958E6DA2A718BB4EB95DCB5 /* SwiftMsgPack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMsgPack.xcconfig; sourceTree = "<group>"; };
-		ED78AF5B8CE1635927C35E31590EE8ED /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Sources/Font.swift; sourceTree = "<group>"; };
-		EF02D15D5D1BB117548F1E61C2929285 /* Apptoms-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apptoms-prefix.pch"; sourceTree = "<group>"; };
-		F1880052406B84F2ADE9C5790F1BAAC6 /* UIFont+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "Sources/UIFont+Extension.swift"; sourceTree = "<group>"; };
+		E0437E55B6CB18A4CCEFEEF86D2A1D08 /* Extensions_Lithium.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions_Lithium.swift; sourceTree = "<group>"; };
+		E1F6E3766761830BF83C40C3498BFC55 /* CommonCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommonCrypto.swift; path = CommonCrypto/CommonCrypto.swift; sourceTree = "<group>"; };
+		EDA77BD4562EE55C8F0FF3CF644F2100 /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01365B7B47D98E057D40DFFAD795605 /* UIFontComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIFontComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08C3A0CE8C80A66B92B1530E728EB4B /* libCommonCrypto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libCommonCrypto.xcconfig; sourceTree = "<group>"; };
+		F26102438482FD500AEF108713920EAE /* SwiftMsgPack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftMsgPack.modulemap; sourceTree = "<group>"; };
+		F32FF056202439678EAC993AAB1429ED /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		F43EF560F70015FEA2F5971C76372C40 /* Pods-Apptoms_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Apptoms_Tests.modulemap"; sourceTree = "<group>"; };
+		F9ED699C251627F69D689D892E98D97B /* SwiftMsgPack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMsgPack-umbrella.h"; sourceTree = "<group>"; };
+		FCC31BCE95629B66DBE8E10479DF4B79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		57C61C5D0B5F2C7509AF8E927C9BD59A /* Frameworks */ = {
+		13019F8A6ED5F33CC97BBB522780AA1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6822A33D533FE10E7DA814DD96B264D /* Foundation.framework in Frameworks */,
+				E2330C7689091A37DF89DE41E7B63219 /* Foundation.framework in Frameworks */,
+				27ED9658C44DF77D6665CD747766EFD6 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DCDC39609E5B07E0FEA11BADEC85C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF46099744699C2CE63CE02DA3A1483B /* CommonCrypto.framework in Frameworks */,
+				67F76E7D30AF3BB17D44C8F5F9F5C3E1 /* Foundation.framework in Frameworks */,
+				BA58B6670D1A101B98BCAC33E0366FC9 /* SwiftMsgPack.framework in Frameworks */,
+				51687E35AC6DCD3EE050D1256EF779EB /* UIFontComplete.framework in Frameworks */,
+				79B5D5DA3B2CB30E71FA8C6DA9DA1205 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,59 +204,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6125E579B44EAD115A3EDCAD28E2B7FB /* Frameworks */ = {
+		665FF84DFFA7AAC6199D1430111276A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38CB64F674DDFC8CF40D1AB8DD4F149E /* Foundation.framework in Frameworks */,
+				70443ED8EBE8544AF0FF5F43E97A201D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CED2B9B27823C6C36DF019485A7E9BD7 /* Frameworks */ = {
+		7A5CCCC068CA2D626EEB4C6B5DFFE18C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				066875BDA846FE88E6266DD2FEB3992D /* Foundation.framework in Frameworks */,
-				A95FFEFA5C0987372A6DD0C35526CFF5 /* SwiftMsgPack.framework in Frameworks */,
-				70F29F17AAA26DBB99B1F408076712B0 /* UIFontComplete.framework in Frameworks */,
-				27C45C614194AD8BDD8A2C0D6D9B00C5 /* UIKit.framework in Frameworks */,
+				10A1FE6DCCF9577D4373B71D11FF5AA0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F718E44801D7BAE5CDA7C2F3F6DCCA34 /* Frameworks */ = {
+		7D2F575FD53D8C9EAE7A162107AD5264 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF7A424F4C6D5D70E120888DEE8FD5C /* Foundation.framework in Frameworks */,
+				6AC116A19997D420B7D2C41FD2F74DEF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		106F36090DC4A0AF1A30728BA79B6507 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				EC0B13017178C123C3E23435DC3DC205 /* Apptoms */,
-				206F74E61F0E8C5800F1731A /* Hydrogen */,
-				206F74E41F0E8C5800F1731A /* Helium */,
-				206F74E91F0E8C5800F1731A /* Lithium */,
-				206F74E21F0E8C5800F1731A /* Beryllium */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		114F311221B99B625ECCDF1C8C7544DF /* UIFontComplete */ = {
-			isa = PBXGroup;
-			children = (
-				ED78AF5B8CE1635927C35E31590EE8ED /* Font.swift */,
-				608C661B215EE1FB069F6D23DFF7129A /* FontRepresentable.swift */,
-				F1880052406B84F2ADE9C5790F1BAAC6 /* UIFont+Extension.swift */,
-				D96418F42E9E4B0C17BA6CCD9AE5F8BA /* Support Files */,
-			);
-			path = UIFontComplete;
-			sourceTree = "<group>";
-		};
 		193E1EFB3F93538D8377EB03B408B032 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,50 +240,72 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		206F74E21F0E8C5800F1731A /* Beryllium */ = {
+		2F5F3CAA5CAA590D874FA3B4A1EEC455 /* Beryllium */ = {
 			isa = PBXGroup;
 			children = (
-				206F74E31F0E8C5800F1731A /* Extensions_Beryllium.swift */,
+				9C0A76ED6BD5AB2E664606A893FEE67E /* Extensions_Beryllium.swift */,
 			);
 			path = Beryllium;
 			sourceTree = "<group>";
 		};
-		206F74E41F0E8C5800F1731A /* Helium */ = {
+		3E4C27A83ACD76544C5574528C2685D0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				206F74E51F0E8C5800F1731A /* Views_Helium.swift */,
+				D5BFCF0F34BB7BA4848D3F250C401C88 /* Info.plist */,
+				F26102438482FD500AEF108713920EAE /* SwiftMsgPack.modulemap */,
+				194BBF046D4DDB7BEE2DAADB2FECD7AC /* SwiftMsgPack.xcconfig */,
+				160313607D00297849FD8FB92BF2BC92 /* SwiftMsgPack-dummy.m */,
+				AAFA26CD5A577E691DCD13B1114E83EA /* SwiftMsgPack-prefix.pch */,
+				F9ED699C251627F69D689D892E98D97B /* SwiftMsgPack-umbrella.h */,
 			);
-			path = Helium;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftMsgPack";
 			sourceTree = "<group>";
 		};
-		206F74E61F0E8C5800F1731A /* Hydrogen */ = {
+		3E7597BECDF603399C94E4D1941AEFDB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				206F74E71F0E8C5800F1731A /* Random.swift */,
-				206F74E81F0E8C5800F1731A /* Extensions_Hydrogen.swift */,
+				51C7BD3EB0784A56D12F14143DDE970D /* Info.plist */,
+				173FFB4D7F66C6A72FE507FFFD7AF9FC /* UIFontComplete.modulemap */,
+				B0A7FBFB9253E072B12E12ED92A8E901 /* UIFontComplete.xcconfig */,
+				5B3352AB722C1EE0B9B3E722EC87EB29 /* UIFontComplete-dummy.m */,
+				129C3069DFB0B68D139B306F65E38EDD /* UIFontComplete-prefix.pch */,
+				03EB20986ABEA047C19368796DFAB3F3 /* UIFontComplete-umbrella.h */,
 			);
-			path = Hydrogen;
+			name = "Support Files";
+			path = "../Target Support Files/UIFontComplete";
 			sourceTree = "<group>";
 		};
-		206F74E91F0E8C5800F1731A /* Lithium */ = {
+		4C62050792AD37AD9E6D41142B3E9EF4 /* Lithium */ = {
 			isa = PBXGroup;
 			children = (
-				206F74EA1F0E8C5800F1731A /* Extensions_Lithium.swift */,
-				206F74EB1F0E8C5800F1731A /* AtURLSession.swift */,
+				D34FEE9FE7B0BB95C33FD4617ADA3D4B /* AtURLSession.swift */,
+				E0437E55B6CB18A4CCEFEEF86D2A1D08 /* Extensions_Lithium.swift */,
 			);
 			path = Lithium;
 			sourceTree = "<group>";
 		};
-		2452636DC5AF9CF715818B25578D89AF /* Products */ = {
+		4DBE2D71C9C15BEE3A71193873F6004F /* Apptoms */ = {
 			isa = PBXGroup;
 			children = (
-				605C28431F4FD7A0078D614628545D55 /* Apptoms.framework */,
-				621AFB59C07BE31B5F37A4BD578E3D7E /* Pods_Apptoms_Example.framework */,
-				3A54EFBEA54E143A2C6E208BE3E19E70 /* Pods_Apptoms_Tests.framework */,
-				E57BAEB0501BCCF2F7B451C9013DA668 /* SwiftMsgPack.framework */,
-				DFF2AA4C453433771A62C797D41C6ECF /* UIFontComplete.framework */,
+				F6E1E5FDF3C42F89EC895CACBC23E994 /* Apptoms */,
+				C6E5D6A96FF28CF5146F00D623F34ADA /* Support Files */,
 			);
-			name = Products;
+			name = Apptoms;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		58AFEE9CF4AB72115C87C8F52457D53E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				503D72038435A07E5AF83D73A105663A /* Info.plist */,
+				6560EC7A9EB811ECF5F396B3A6CF51D9 /* libCommonCrypto.modulemap */,
+				F08C3A0CE8C80A66B92B1530E728EB4B /* libCommonCrypto.xcconfig */,
+				31734BF006D5085C5AB6F5CBE6662453 /* libCommonCrypto-dummy.m */,
+				AB58CC5A0630057A07316982B91BA252 /* libCommonCrypto-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/libCommonCrypto";
 			sourceTree = "<group>";
 		};
 		6422D9434DD70C4A2AAADB138A00F229 /* Pods-Apptoms_Tests */ = {
@@ -285,12 +326,17 @@
 			path = "Target Support Files/Pods-Apptoms_Tests";
 			sourceTree = "<group>";
 		};
-		6B4662F422545BF529254EA7878543C0 /* Development Pods */ = {
+		687DFCC4E03989C6FAF6CF4743AA0A34 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9C22C2201C8082A1A802A50E15F56851 /* Apptoms */,
+				8D6E9A3F56E2F9AF5FA50EE78398E3DE /* Apptoms */,
+				CD89CE6C61F4A032CA737A357AEC4B72 /* Hydrogen */,
+				A5BB2FB48A30F48B2BC762FAFF4A583F /* Helium */,
+				4C62050792AD37AD9E6D41142B3E9EF4 /* Lithium */,
+				2F5F3CAA5CAA590D874FA3B4A1EEC455 /* Beryllium */,
+				A824D33B0A6D5A355C8587AC02C85741 /* Boron */,
 			);
-			name = "Development Pods";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		72D766E7C294500314F065CF5F162DDF /* Pods-Apptoms_Example */ = {
@@ -315,145 +361,193 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6B4662F422545BF529254EA7878543C0 /* Development Pods */,
-				DB158BB493A90813660ECA60B322DF53 /* Frameworks */,
-				C32B2D6DBE0D5370FAD2D9E3850EFD44 /* Pods */,
-				2452636DC5AF9CF715818B25578D89AF /* Products */,
+				B87441CDB0CC2C0B8E919016711C8226 /* Development Pods */,
+				99A2878FA270B4BE1791B9CDAAFA5BC7 /* Frameworks */,
+				8FAE61ACA7B571D0BA202B12FD0AC809 /* Pods */,
+				FA9BDAC54D9BA9EFB61DCD2897B6C469 /* Products */,
 				193E1EFB3F93538D8377EB03B408B032 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E4572F12869EA049AF97920D17B9EF2 /* Support Files */ = {
+		8D6E9A3F56E2F9AF5FA50EE78398E3DE /* Apptoms */ = {
 			isa = PBXGroup;
 			children = (
-				CE6D64E9BC157EAC5A22830EC56996BB /* Info.plist */,
-				C7EAEE2B1E2B9119BB384E5DDC24AD5A /* SwiftMsgPack.modulemap */,
-				EAA023C21958E6DA2A718BB4EB95DCB5 /* SwiftMsgPack.xcconfig */,
-				020D90BABFE22C154C1943EA34F90A02 /* SwiftMsgPack-dummy.m */,
-				A20DF56A45267B41086FB9A5FD9FFDE8 /* SwiftMsgPack-prefix.pch */,
-				7752B8446EA3B80E8DA33C4A407432FB /* SwiftMsgPack-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftMsgPack";
-			sourceTree = "<group>";
-		};
-		8F94ABA953FDF2C8FA35211A192D5398 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6FE68E34732733457A6960CD7F24FEFB /* Foundation.framework */,
-				0AEB667D29BD254122E102824065ACFC /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		98B5D70D6ED920737880FC6737B5EDEF /* Apptoms */ = {
-			isa = PBXGroup;
-			children = (
-				106F36090DC4A0AF1A30728BA79B6507 /* Classes */,
+				797DB8E535357CC95A54B9548357C17F /* Apptoms.swift */,
 			);
 			path = Apptoms;
 			sourceTree = "<group>";
 		};
-		9C22C2201C8082A1A802A50E15F56851 /* Apptoms */ = {
+		8FAE61ACA7B571D0BA202B12FD0AC809 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB79761460F09E9E9AC989EBC0648DFD /* Apptoms */,
-				EE4FF58E653330AAFF35E5DFBDAFBBE1 /* Support Files */,
-			);
-			name = Apptoms;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AE4EEE267DEC18BE7DAA34B7003C76A4 /* SwiftMsgPack */ = {
-			isa = PBXGroup;
-			children = (
-				B137D9C14B469DA188EA69068F05D619 /* Commons.swift */,
-				8327C58AB594AE3EC12F3F8075D6C84A /* Decoder.swift */,
-				6D84F25A71543AB2B10833441EDB260E /* Encoder.swift */,
-				7E4572F12869EA049AF97920D17B9EF2 /* Support Files */,
-			);
-			path = SwiftMsgPack;
-			sourceTree = "<group>";
-		};
-		C32B2D6DBE0D5370FAD2D9E3850EFD44 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AE4EEE267DEC18BE7DAA34B7003C76A4 /* SwiftMsgPack */,
-				114F311221B99B625ECCDF1C8C7544DF /* UIFontComplete */,
+				9E7CB37282BB5D40183CECAD67D04162 /* libCommonCrypto */,
+				9BF196C8AAB5558A5CB7B4A1F346C6C2 /* SwiftMsgPack */,
+				DF1135C73FD25B13B4FD73F4BB023307 /* UIFontComplete */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CB79761460F09E9E9AC989EBC0648DFD /* Apptoms */ = {
+		99A2878FA270B4BE1791B9CDAAFA5BC7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				98B5D70D6ED920737880FC6737B5EDEF /* Apptoms */,
-			);
-			name = Apptoms;
-			sourceTree = "<group>";
-		};
-		D96418F42E9E4B0C17BA6CCD9AE5F8BA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				974EF76743B73829B874BF1797DB3260 /* Info.plist */,
-				1BF387B6CB1F7817211662A4AFA5028B /* UIFontComplete.modulemap */,
-				8330399FAA82E8A8D9D51ECC7AD42858 /* UIFontComplete.xcconfig */,
-				7E423C13D81CA2B02136336CBD06E92F /* UIFontComplete-dummy.m */,
-				D8FF57B5BBFCEB70CC8A3162DEEC4A1C /* UIFontComplete-prefix.pch */,
-				C48A08845BD9A78FD97D0BADC15E6027 /* UIFontComplete-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/UIFontComplete";
-			sourceTree = "<group>";
-		};
-		DB158BB493A90813660ECA60B322DF53 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				86636B8DDE05BEE080D016970A72B5C7 /* SwiftMsgPack.framework */,
-				58FE19767AADB6866442094B39991AE3 /* UIFontComplete.framework */,
-				8F94ABA953FDF2C8FA35211A192D5398 /* iOS */,
+				6FA40C0F5139B07DFAB68BFC2B6EBE86 /* CommonCrypto.framework */,
+				132A57DEB1076B0FE9E03C0C0EE6C7BB /* SwiftMsgPack.framework */,
+				C646895C1C998879BCEDD3C93ADAD999 /* UIFontComplete.framework */,
+				AAD8B036F06CAABE1093A4D8404BD7C8 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC0B13017178C123C3E23435DC3DC205 /* Apptoms */ = {
+		9BF196C8AAB5558A5CB7B4A1F346C6C2 /* SwiftMsgPack */ = {
 			isa = PBXGroup;
 			children = (
-				842D4A91CDAAA76A0F15F6625809C8C3 /* Apptoms.swift */,
+				ABDD3B7E1328976F443C2E80B7A4BB8A /* Commons.swift */,
+				8BE93D6618CEF2567A16BFA7A2198F60 /* Decoder.swift */,
+				58D0CC9A41DD508A2D67DCC765E0DDFF /* Encoder.swift */,
+				3E4C27A83ACD76544C5574528C2685D0 /* Support Files */,
 			);
-			path = Apptoms;
+			path = SwiftMsgPack;
 			sourceTree = "<group>";
 		};
-		EE4FF58E653330AAFF35E5DFBDAFBBE1 /* Support Files */ = {
+		9E7CB37282BB5D40183CECAD67D04162 /* libCommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				87923274760303050F6C6E43886CA896 /* Apptoms.modulemap */,
-				969DE582B08DB873B3D9A434FE4A8162 /* Apptoms.xcconfig */,
-				9D4C5F8B6598D21CD7BD9FE0FC2365F6 /* Apptoms-dummy.m */,
-				EF02D15D5D1BB117548F1E61C2929285 /* Apptoms-prefix.pch */,
-				A5D931FFC2D78A4B780D5557CFD0468B /* Apptoms-umbrella.h */,
-				C027760A405E7D6383C36815B6A4151D /* Info.plist */,
+				8464C3D3CBBC69F530AE5B67E7E4BF02 /* CommonCrypto.h */,
+				E1F6E3766761830BF83C40C3498BFC55 /* CommonCrypto.swift */,
+				58AFEE9CF4AB72115C87C8F52457D53E /* Support Files */,
+			);
+			path = libCommonCrypto;
+			sourceTree = "<group>";
+		};
+		A5BB2FB48A30F48B2BC762FAFF4A583F /* Helium */ = {
+			isa = PBXGroup;
+			children = (
+				6432508D2680AA1338251EB01C44C6C2 /* Views_Helium.swift */,
+			);
+			path = Helium;
+			sourceTree = "<group>";
+		};
+		A824D33B0A6D5A355C8587AC02C85741 /* Boron */ = {
+			isa = PBXGroup;
+			children = (
+				8F822D093DC530B895D7D4CD071800AC /* Extensions_Boron.swift */,
+			);
+			path = Boron;
+			sourceTree = "<group>";
+		};
+		AAD8B036F06CAABE1093A4D8404BD7C8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCC31BCE95629B66DBE8E10479DF4B79 /* Foundation.framework */,
+				F32FF056202439678EAC993AAB1429ED /* Security.framework */,
+				59BA2A955193EDD5615DD7E44B1134A6 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B87441CDB0CC2C0B8E919016711C8226 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DBE2D71C9C15BEE3A71193873F6004F /* Apptoms */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C6E5D6A96FF28CF5146F00D623F34ADA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8403A872576BB106DB1CB542335C70FF /* Apptoms.modulemap */,
+				197EE69BBB8DD1ADF97CC92EC60A9ABA /* Apptoms.xcconfig */,
+				612B304D9A5F3DC72AD4671D416A2AB8 /* Apptoms-dummy.m */,
+				6AC2F8A35974B8D4933F4673C5B9B7BA /* Apptoms-prefix.pch */,
+				5DE6F6D3403924C3EA0788D6BC3C4350 /* Apptoms-umbrella.h */,
+				70E1B1C9B8FE6A28302AA0D400690938 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Apptoms";
 			sourceTree = "<group>";
 		};
+		CD89CE6C61F4A032CA737A357AEC4B72 /* Hydrogen */ = {
+			isa = PBXGroup;
+			children = (
+				0D0B787D65E00AA7EEE0238BA02A5085 /* Extensions_Hydrogen.swift */,
+				C3953740A0A80BC259A08C60C58FE7A1 /* Random.swift */,
+			);
+			path = Hydrogen;
+			sourceTree = "<group>";
+		};
+		DF1135C73FD25B13B4FD73F4BB023307 /* UIFontComplete */ = {
+			isa = PBXGroup;
+			children = (
+				3E1B4C1F29C9B69A91E6B429800DB1DB /* Font.swift */,
+				DBA0348E0986C660C5ACC9B624758AE3 /* FontRepresentable.swift */,
+				67F37DE72D0489F05947A0B38206D156 /* UIFont+Extension.swift */,
+				3E7597BECDF603399C94E4D1941AEFDB /* Support Files */,
+			);
+			path = UIFontComplete;
+			sourceTree = "<group>";
+		};
+		E4418FC2CDEA8CDB58308721F710BE0D /* Apptoms */ = {
+			isa = PBXGroup;
+			children = (
+				687DFCC4E03989C6FAF6CF4743AA0A34 /* Classes */,
+			);
+			path = Apptoms;
+			sourceTree = "<group>";
+		};
+		F6E1E5FDF3C42F89EC895CACBC23E994 /* Apptoms */ = {
+			isa = PBXGroup;
+			children = (
+				E4418FC2CDEA8CDB58308721F710BE0D /* Apptoms */,
+			);
+			name = Apptoms;
+			sourceTree = "<group>";
+		};
+		FA9BDAC54D9BA9EFB61DCD2897B6C469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EABC4CD3B74F83647FE5BBC95748B66 /* Apptoms.framework */,
+				EDA77BD4562EE55C8F0FF3CF644F2100 /* CommonCrypto.framework */,
+				065DA6561C145F7C27843C44511399D3 /* Pods_Apptoms_Example.framework */,
+				0B05660B67DD7230613BDA7A7D02A96C /* Pods_Apptoms_Tests.framework */,
+				5072D6EC4D4BEE6207389E7EE7E96E5D /* SwiftMsgPack.framework */,
+				F01365B7B47D98E057D40DFFAD795605 /* UIFontComplete.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C8CEF124757ED1F17EA7EF118736266 /* Headers */ = {
+		3494635CF80BA8715F5C86BDB0EE7E22 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B23E1556F6A256D114E6E096AF5BFEA /* UIFontComplete-umbrella.h in Headers */,
+				923A2F81AD5897BA56FEC64CA1547401 /* UIFontComplete-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D7DCF767A6756F8585B91A2D8C0EB0F /* Headers */ = {
+		472BF7596816713F42691F293B23C744 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD981A8A1ACD87CCF42806E3B5C586D1 /* SwiftMsgPack-umbrella.h in Headers */,
+				F084286A6D4C0BA9507742C859259C32 /* SwiftMsgPack-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5199B085FA7F97168823334AE27E2C82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B46ECF8CD8E25C18AC1B27B0CB0B683 /* Apptoms-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655162C7BC3F144F7981512C1532E7C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682F4534620487D643EB9DEF81DA01A8 /* CommonCrypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,77 +559,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB7F4B63740D21AE842FC377D19C48E2 /* Headers */ = {
+		A5168A4760BF5FE715753D068F5A14A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2C0F3FC5A3B7396707988A272C2904 /* Apptoms-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C29CA26904C3EC6E7CDAA95BB03A979E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA9FDA3FBAFA94BA784A5718E2329499 /* Pods-Apptoms_Example-umbrella.h in Headers */,
+				1430C61BB132A6DE34FD1AAA60B138C0 /* Pods-Apptoms_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		202A1D6A14AE537EC4971863218A0A8A /* UIFontComplete */ = {
+		57FECECBBBC70E81071D502577881E53 /* libCommonCrypto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE2AF926399553515CD8A3226E7EA0CF /* Build configuration list for PBXNativeTarget "UIFontComplete" */;
+			buildConfigurationList = C0867F1D0610161F3A62CA4A5C0CAC91 /* Build configuration list for PBXNativeTarget "libCommonCrypto" */;
 			buildPhases = (
-				713412AD1ADDC397332C2FA46B53E0EE /* Sources */,
-				6125E579B44EAD115A3EDCAD28E2B7FB /* Frameworks */,
-				4C8CEF124757ED1F17EA7EF118736266 /* Headers */,
+				A190F56D91634D707E1AC975D8B65234 /* Sources */,
+				13019F8A6ED5F33CC97BBB522780AA1D /* Frameworks */,
+				655162C7BC3F144F7981512C1532E7C0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UIFontComplete;
-			productName = UIFontComplete;
-			productReference = DFF2AA4C453433771A62C797D41C6ECF /* UIFontComplete.framework */;
+			name = libCommonCrypto;
+			productName = libCommonCrypto;
+			productReference = EDA77BD4562EE55C8F0FF3CF644F2100 /* CommonCrypto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		268919BDF083EFA11D05E01CBC122E29 /* SwiftMsgPack */ = {
+		5847C32ED5378AC442C1DCFD1B4D287A /* Pods-Apptoms_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E59F7E38F3FF657D899EE8D26A34C1AA /* Build configuration list for PBXNativeTarget "SwiftMsgPack" */;
+			buildConfigurationList = A8EB057DD636F9DECA52DC859AEF130D /* Build configuration list for PBXNativeTarget "Pods-Apptoms_Example" */;
 			buildPhases = (
-				104097BCFA00AEF921EBF628BE7D2123 /* Sources */,
-				F718E44801D7BAE5CDA7C2F3F6DCCA34 /* Frameworks */,
-				4D7DCF767A6756F8585B91A2D8C0EB0F /* Headers */,
+				128D9CEE93B480F8FC5A6D0377A63255 /* Sources */,
+				7A5CCCC068CA2D626EEB4C6B5DFFE18C /* Frameworks */,
+				A5168A4760BF5FE715753D068F5A14A4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = SwiftMsgPack;
-			productName = SwiftMsgPack;
-			productReference = E57BAEB0501BCCF2F7B451C9013DA668 /* SwiftMsgPack.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8EBFDA29302EFF5D47E5A94338E19B54 /* Pods-Apptoms_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 64A0D548ADA0853398E68FD4892C5F17 /* Build configuration list for PBXNativeTarget "Pods-Apptoms_Example" */;
-			buildPhases = (
-				5BF35C02C2A3DD87D226103EF4DEE2A0 /* Sources */,
-				57C61C5D0B5F2C7509AF8E927C9BD59A /* Frameworks */,
-				C29CA26904C3EC6E7CDAA95BB03A979E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F926182C45F33BC97B6C98620195EA05 /* PBXTargetDependency */,
-				6676AB2DCE84A5BD31DEA7DC6CD6D5EB /* PBXTargetDependency */,
-				404EECA3E34910D0659C2A32090D573C /* PBXTargetDependency */,
+				B8D6367E1FE75269522A06168729AD52 /* PBXTargetDependency */,
+				56B435666A701121A8880BA698431D81 /* PBXTargetDependency */,
+				BDBF58B3BDEA08A9A3B5423EDA5EAF44 /* PBXTargetDependency */,
+				6AB0FF3D0B5A604259A31619C79629F0 /* PBXTargetDependency */,
 			);
 			name = "Pods-Apptoms_Example";
 			productName = "Pods-Apptoms_Example";
-			productReference = 621AFB59C07BE31B5F37A4BD578E3D7E /* Pods_Apptoms_Example.framework */;
+			productReference = 065DA6561C145F7C27843C44511399D3 /* Pods_Apptoms_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81674864CB17E76C1766C5AE872E6ABB /* Apptoms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C4FDC0692EB70B5019CDEFC7BDF608 /* Build configuration list for PBXNativeTarget "Apptoms" */;
+			buildPhases = (
+				4525B24F4402E78D57DBB5BDB52540A5 /* Sources */,
+				4DCDC39609E5B07E0FEA11BADEC85C8F /* Frameworks */,
+				5199B085FA7F97168823334AE27E2C82 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E57CF95140D69F2303AC28AE6808E3C9 /* PBXTargetDependency */,
+				7630E3D41046A05036AEDF7F656D8A77 /* PBXTargetDependency */,
+				723C07B1B10841026855BBA5DC046BCE /* PBXTargetDependency */,
+			);
+			name = Apptoms;
+			productName = Apptoms;
+			productReference = 8EABC4CD3B74F83647FE5BBC95748B66 /* Apptoms.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A382F782CE8215CACBE49F892B87C028 /* Pods-Apptoms_Tests */ = {
@@ -552,26 +642,41 @@
 			);
 			name = "Pods-Apptoms_Tests";
 			productName = "Pods-Apptoms_Tests";
-			productReference = 3A54EFBEA54E143A2C6E208BE3E19E70 /* Pods_Apptoms_Tests.framework */;
+			productReference = 0B05660B67DD7230613BDA7A7D02A96C /* Pods_Apptoms_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CAAD588CB38B70CDFCD4B2AEB1923AC3 /* Apptoms */ = {
+		F1CD40B951842C0B30D7D5D5CDCE3F71 /* SwiftMsgPack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91D3B37EB1AE1261AEC611E32202C6BC /* Build configuration list for PBXNativeTarget "Apptoms" */;
+			buildConfigurationList = 7E97FA2D6F6A8C05DBE6A27E1FBC5E35 /* Build configuration list for PBXNativeTarget "SwiftMsgPack" */;
 			buildPhases = (
-				8E7D36ACD46FE1B4F6BA5F6B9EE8692D /* Sources */,
-				CED2B9B27823C6C36DF019485A7E9BD7 /* Frameworks */,
-				AB7F4B63740D21AE842FC377D19C48E2 /* Headers */,
+				812D67E37D7825987CDE29030F8EF136 /* Sources */,
+				665FF84DFFA7AAC6199D1430111276A0 /* Frameworks */,
+				472BF7596816713F42691F293B23C744 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BCF2AF7BE688AEEE262E6F902D516C1D /* PBXTargetDependency */,
-				47C19AAFCD2EA3507BA8B9C052462C1E /* PBXTargetDependency */,
 			);
-			name = Apptoms;
-			productName = Apptoms;
-			productReference = 605C28431F4FD7A0078D614628545D55 /* Apptoms.framework */;
+			name = SwiftMsgPack;
+			productName = SwiftMsgPack;
+			productReference = 5072D6EC4D4BEE6207389E7EE7E96E5D /* SwiftMsgPack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F28B26969882A2E00153BBA3A9A743B9 /* UIFontComplete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40607EFFE93A8E20A2817A70BB23749 /* Build configuration list for PBXNativeTarget "UIFontComplete" */;
+			buildPhases = (
+				6A28764CC9AD5C5C636884B0E55A9D31 /* Sources */,
+				7D2F575FD53D8C9EAE7A162107AD5264 /* Frameworks */,
+				3494635CF80BA8715F5C86BDB0EE7E22 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIFontComplete;
+			productName = UIFontComplete;
+			productReference = F01365B7B47D98E057D40DFFAD795605 /* UIFontComplete.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -591,28 +696,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2452636DC5AF9CF715818B25578D89AF /* Products */;
+			productRefGroup = FA9BDAC54D9BA9EFB61DCD2897B6C469 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAAD588CB38B70CDFCD4B2AEB1923AC3 /* Apptoms */,
-				8EBFDA29302EFF5D47E5A94338E19B54 /* Pods-Apptoms_Example */,
+				81674864CB17E76C1766C5AE872E6ABB /* Apptoms */,
+				57FECECBBBC70E81071D502577881E53 /* libCommonCrypto */,
+				5847C32ED5378AC442C1DCFD1B4D287A /* Pods-Apptoms_Example */,
 				A382F782CE8215CACBE49F892B87C028 /* Pods-Apptoms_Tests */,
-				268919BDF083EFA11D05E01CBC122E29 /* SwiftMsgPack */,
-				202A1D6A14AE537EC4971863218A0A8A /* UIFontComplete */,
+				F1CD40B951842C0B30D7D5D5CDCE3F71 /* SwiftMsgPack */,
+				F28B26969882A2E00153BBA3A9A743B9 /* UIFontComplete */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		104097BCFA00AEF921EBF628BE7D2123 /* Sources */ = {
+		128D9CEE93B480F8FC5A6D0377A63255 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60AE441A3FC11237FD00CD7C648D4C8A /* Commons.swift in Sources */,
-				B7F56A21FC12F93E0234D8651225FC18 /* Decoder.swift in Sources */,
-				AE9F628B058D63F3F26FC23E7E8D013D /* Encoder.swift in Sources */,
-				7DC6EB8C3BDA0726251D6016BF92735C /* SwiftMsgPack-dummy.m in Sources */,
+				F658D1119B99C641F3D753B0B553C5E2 /* Pods-Apptoms_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4525B24F4402E78D57DBB5BDB52540A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6E124AB407AA5C0A2B301433B2E43F /* Apptoms-dummy.m in Sources */,
+				D9EF725A897E89C480035DAA82815047 /* Apptoms.swift in Sources */,
+				CA635D48530F7CA18E9AD3BBE7E75901 /* AtURLSession.swift in Sources */,
+				86479BA9E99405A34936C9CE0CBF7EB9 /* Extensions_Beryllium.swift in Sources */,
+				8412C473F6604A7AF434D121D56BD2A8 /* Extensions_Boron.swift in Sources */,
+				1D9CD1EEAC2DFBB4CF48B245187F4CAF /* Extensions_Hydrogen.swift in Sources */,
+				69432C94BC13824C5EB1144A7EBA7370 /* Extensions_Lithium.swift in Sources */,
+				21A7131D56B77B90747202F1664DA710 /* Random.swift in Sources */,
+				858D717A517D94FD03B581414C9A25D5 /* Views_Helium.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,72 +743,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BF35C02C2A3DD87D226103EF4DEE2A0 /* Sources */ = {
+		6A28764CC9AD5C5C636884B0E55A9D31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F19CD269BC8A2300529D2BF7AABC05 /* Pods-Apptoms_Example-dummy.m in Sources */,
+				CBC550EBF12A010DD3F579CBC78C77AE /* Font.swift in Sources */,
+				FF6C1BEA0306F9693505AEB2ED8EEE73 /* FontRepresentable.swift in Sources */,
+				058FAAF92B1465517FBA534438092DDD /* UIFont+Extension.swift in Sources */,
+				ECE682219D215007428B65BF5CB17021 /* UIFontComplete-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		713412AD1ADDC397332C2FA46B53E0EE /* Sources */ = {
+		812D67E37D7825987CDE29030F8EF136 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DE068F605D3B2F5E517F7C6BF0738A /* Font.swift in Sources */,
-				908843EC648749EACD911F06956FCD9F /* FontRepresentable.swift in Sources */,
-				5765ADE8ABC09CE7799211EC5578181F /* UIFont+Extension.swift in Sources */,
-				C8A0DDCBA84A6E6F378A9BEB27BCD64D /* UIFontComplete-dummy.m in Sources */,
+				1B656F1211C600F2AB6E7BA199DE94DC /* Commons.swift in Sources */,
+				15D4F1856103B13E564B9DEEE17CF953 /* Decoder.swift in Sources */,
+				1A94C275F1EE9FAB4CDA41E2E947DC08 /* Encoder.swift in Sources */,
+				E34C080988D7F7F71A9E72637E16E08E /* SwiftMsgPack-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E7D36ACD46FE1B4F6BA5F6B9EE8692D /* Sources */ = {
+		A190F56D91634D707E1AC975D8B65234 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46ADAB2350079D8B9470777D43C01D92 /* Apptoms-dummy.m in Sources */,
-				206F74F11F0E8C5800F1731A /* AtURLSession.swift in Sources */,
-				206F74EF1F0E8C5800F1731A /* Extensions_Hydrogen.swift in Sources */,
-				206F74EC1F0E8C5800F1731A /* Extensions_Beryllium.swift in Sources */,
-				206F74EE1F0E8C5800F1731A /* Random.swift in Sources */,
-				206F74ED1F0E8C5800F1731A /* Views_Helium.swift in Sources */,
-				64820EA56ED7AD30F5B636B70A4024AD /* Apptoms.swift in Sources */,
-				206F74F01F0E8C5800F1731A /* Extensions_Lithium.swift in Sources */,
+				B661508D824DB5CD0D69AC2A7CAF2D87 /* CommonCrypto.swift in Sources */,
+				B2D8500BC6400E75BB4D013BD3CC8C80 /* libCommonCrypto-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		404EECA3E34910D0659C2A32090D573C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIFontComplete;
-			target = 202A1D6A14AE537EC4971863218A0A8A /* UIFontComplete */;
-			targetProxy = EC94E35AD120B2A5B7EDA4B90D2378BD /* PBXContainerItemProxy */;
-		};
-		47C19AAFCD2EA3507BA8B9C052462C1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIFontComplete;
-			target = 202A1D6A14AE537EC4971863218A0A8A /* UIFontComplete */;
-			targetProxy = BD19FF1CCDBE0C38034C419256DE68EF /* PBXContainerItemProxy */;
-		};
-		6676AB2DCE84A5BD31DEA7DC6CD6D5EB /* PBXTargetDependency */ = {
+		56B435666A701121A8880BA698431D81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftMsgPack;
-			target = 268919BDF083EFA11D05E01CBC122E29 /* SwiftMsgPack */;
-			targetProxy = 5449CD62F9CC6BECCD09C8ACC9924F85 /* PBXContainerItemProxy */;
+			target = F1CD40B951842C0B30D7D5D5CDCE3F71 /* SwiftMsgPack */;
+			targetProxy = D76ECE9B395B1787D64FD8120571756C /* PBXContainerItemProxy */;
 		};
-		BCF2AF7BE688AEEE262E6F902D516C1D /* PBXTargetDependency */ = {
+		6AB0FF3D0B5A604259A31619C79629F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftMsgPack;
-			target = 268919BDF083EFA11D05E01CBC122E29 /* SwiftMsgPack */;
-			targetProxy = 90614E9670DC905163940D0CA8DDEBDB /* PBXContainerItemProxy */;
+			name = libCommonCrypto;
+			target = 57FECECBBBC70E81071D502577881E53 /* libCommonCrypto */;
+			targetProxy = EE58DBD160C389CC971C8A59D6370944 /* PBXContainerItemProxy */;
 		};
-		F926182C45F33BC97B6C98620195EA05 /* PBXTargetDependency */ = {
+		723C07B1B10841026855BBA5DC046BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libCommonCrypto;
+			target = 57FECECBBBC70E81071D502577881E53 /* libCommonCrypto */;
+			targetProxy = 3F5E78C3CF1D6BCAD1700427A3BC354A /* PBXContainerItemProxy */;
+		};
+		7630E3D41046A05036AEDF7F656D8A77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIFontComplete;
+			target = F28B26969882A2E00153BBA3A9A743B9 /* UIFontComplete */;
+			targetProxy = 55401A21BBC0C0E13389C2CFEB596582 /* PBXContainerItemProxy */;
+		};
+		B8D6367E1FE75269522A06168729AD52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Apptoms;
-			target = CAAD588CB38B70CDFCD4B2AEB1923AC3 /* Apptoms */;
-			targetProxy = 357D9F0B5CFDA2A13894D19926C54CE2 /* PBXContainerItemProxy */;
+			target = 81674864CB17E76C1766C5AE872E6ABB /* Apptoms */;
+			targetProxy = 94F0C3D5E56C3128A03B87E37DAB90F3 /* PBXContainerItemProxy */;
+		};
+		BDBF58B3BDEA08A9A3B5423EDA5EAF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIFontComplete;
+			target = F28B26969882A2E00153BBA3A9A743B9 /* UIFontComplete */;
+			targetProxy = 904C377373D40627C3B93BEC58D941C0 /* PBXContainerItemProxy */;
+		};
+		E57CF95140D69F2303AC28AE6808E3C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMsgPack;
+			target = F1CD40B951842C0B30D7D5D5CDCE3F71 /* SwiftMsgPack */;
+			targetProxy = BB88D7BCBE28C909B5E6F4786E4E9D85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -724,13 +852,154 @@
 				PRODUCT_NAME = Pods_Apptoms_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		0C28C5C620D96CE050AF25D7723F78AE /* Debug */ = {
+		2DD932DC36E6161EAFF9ADB6AB65A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194BBF046D4DDB7BEE2DAADB2FECD7AC /* SwiftMsgPack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMsgPack/SwiftMsgPack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMsgPack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMsgPack/SwiftMsgPack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftMsgPack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41A76AC5E21BF90D1C76DA72EA5DC8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08C3A0CE8C80A66B92B1530E728EB4B /* libCommonCrypto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libCommonCrypto/libCommonCrypto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libCommonCrypto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libCommonCrypto/libCommonCrypto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CommonCrypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BB9D7F028BCA44D17C1FFB3022F5392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194BBF046D4DDB7BEE2DAADB2FECD7AC /* SwiftMsgPack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMsgPack/SwiftMsgPack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMsgPack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMsgPack/SwiftMsgPack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftMsgPack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BDC94E9784762E479D736A00A3ADF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197EE69BBB8DD1ADF97CC92EC60A9ABA /* Apptoms.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Apptoms/Apptoms-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Apptoms/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Apptoms/Apptoms.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Apptoms;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FB53668D5E14088798837CC4B05DB87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4A874418502C1F01721F921B82AD832 /* Pods-Apptoms_Example.debug.xcconfig */;
 			buildSettings = {
@@ -761,41 +1030,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		832D567BCA6C9F97D4CC9AE22EB5195B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 969DE582B08DB873B3D9A434FE4A8162 /* Apptoms.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Apptoms/Apptoms-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Apptoms/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Apptoms/Apptoms.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Apptoms;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -853,47 +1087,9 @@
 			};
 			name = Debug;
 		};
-		9F76678AA39F0EFC99C4372461C6D761 /* Release */ = {
+		A2B7E6A9B07A3FC248BDD7CCA71F6B6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 644D98657AEA5EB64114E14B44D3F7D7 /* Pods-Apptoms_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Apptoms_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Apptoms_Example/Pods-Apptoms_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Apptoms_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B24BF6D96A25E109AFEEFD8AAFDE811C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAA023C21958E6DA2A718BB4EB95DCB5 /* SwiftMsgPack.xcconfig */;
+			baseConfigurationReference = B0A7FBFB9253E072B12E12ED92A8E901 /* UIFontComplete.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -907,14 +1103,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftMsgPack/SwiftMsgPack-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftMsgPack/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UIFontComplete/UIFontComplete-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIFontComplete/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftMsgPack/SwiftMsgPack.modulemap";
+				MODULEMAP_FILE = "Target Support Files/UIFontComplete/UIFontComplete.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftMsgPack;
+				PRODUCT_NAME = UIFontComplete;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -970,9 +1166,44 @@
 			};
 			name = Release;
 		};
-		CCB17110659BB98C37FE015C30C7EA04 /* Debug */ = {
+		C10C909CAE4F45D1FEAFB12803987489 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8330399FAA82E8A8D9D51ECC7AD42858 /* UIFontComplete.xcconfig */;
+			baseConfigurationReference = B0A7FBFB9253E072B12E12ED92A8E901 /* UIFontComplete.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIFontComplete/UIFontComplete-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIFontComplete/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIFontComplete/UIFontComplete.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIFontComplete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBD0293407B5FD053B9DFA6D74A0193E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08C3A0CE8C80A66B92B1530E728EB4B /* libCommonCrypto.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -986,14 +1217,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIFontComplete/UIFontComplete-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIFontComplete/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/libCommonCrypto/libCommonCrypto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libCommonCrypto/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIFontComplete/UIFontComplete.modulemap";
+				MODULEMAP_FILE = "Target Support Files/libCommonCrypto/libCommonCrypto.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UIFontComplete;
+				PRODUCT_NAME = CommonCrypto;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1005,16 +1236,16 @@
 			};
 			name = Debug;
 		};
-		DC6EB579B6E83312A263E866ACE0C9B5 /* Release */ = {
+		D7FD557898DC25E8B97F3610E15D52CA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 969DE582B08DB873B3D9A434FE4A8162 /* Apptoms.xcconfig */;
+			baseConfigurationReference = 197EE69BBB8DD1ADF97CC92EC60A9ABA /* Apptoms.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1027,88 +1258,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Apptoms/Apptoms.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Apptoms;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		E6D4CEF3AE88198897D1A3BA6A71F998 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8330399FAA82E8A8D9D51ECC7AD42858 /* UIFontComplete.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIFontComplete/UIFontComplete-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIFontComplete/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIFontComplete/UIFontComplete.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UIFontComplete;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E7B54A9E1077471EF7065BBA7DE59325 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAA023C21958E6DA2A718BB4EB95DCB5 /* SwiftMsgPack.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftMsgPack/SwiftMsgPack-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftMsgPack/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftMsgPack/SwiftMsgPack.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftMsgPack;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		E90E4F01B0DD40E009E91E13A2AB8AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1140,15 +1301,63 @@
 				PRODUCT_NAME = Pods_Apptoms_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		FC1C826DDEDB4D794C64895953910BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644D98657AEA5EB64114E14B44D3F7D7 /* Pods-Apptoms_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Apptoms_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Apptoms_Example/Pods-Apptoms_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Apptoms_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00C4FDC0692EB70B5019CDEFC7BDF608 /* Build configuration list for PBXNativeTarget "Apptoms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FD557898DC25E8B97F3610E15D52CA /* Debug */,
+				7BDC94E9784762E479D736A00A3ADF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1158,20 +1367,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64A0D548ADA0853398E68FD4892C5F17 /* Build configuration list for PBXNativeTarget "Pods-Apptoms_Example" */ = {
+		7E97FA2D6F6A8C05DBE6A27E1FBC5E35 /* Build configuration list for PBXNativeTarget "SwiftMsgPack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C28C5C620D96CE050AF25D7723F78AE /* Debug */,
-				9F76678AA39F0EFC99C4372461C6D761 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		91D3B37EB1AE1261AEC611E32202C6BC /* Build configuration list for PBXNativeTarget "Apptoms" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				832D567BCA6C9F97D4CC9AE22EB5195B /* Debug */,
-				DC6EB579B6E83312A263E866ACE0C9B5 /* Release */,
+				2DD932DC36E6161EAFF9ADB6AB65A016 /* Debug */,
+				7BB9D7F028BCA44D17C1FFB3022F5392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1185,20 +1385,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE2AF926399553515CD8A3226E7EA0CF /* Build configuration list for PBXNativeTarget "UIFontComplete" */ = {
+		A40607EFFE93A8E20A2817A70BB23749 /* Build configuration list for PBXNativeTarget "UIFontComplete" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCB17110659BB98C37FE015C30C7EA04 /* Debug */,
-				E6D4CEF3AE88198897D1A3BA6A71F998 /* Release */,
+				A2B7E6A9B07A3FC248BDD7CCA71F6B6E /* Debug */,
+				C10C909CAE4F45D1FEAFB12803987489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E59F7E38F3FF657D899EE8D26A34C1AA /* Build configuration list for PBXNativeTarget "SwiftMsgPack" */ = {
+		A8EB057DD636F9DECA52DC859AEF130D /* Build configuration list for PBXNativeTarget "Pods-Apptoms_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B24BF6D96A25E109AFEEFD8AAFDE811C /* Debug */,
-				E7B54A9E1077471EF7065BBA7DE59325 /* Release */,
+				7FB53668D5E14088798837CC4B05DB87 /* Debug */,
+				FC1C826DDEDB4D794C64895953910BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0867F1D0610161F3A62CA4A5C0CAC91 /* Build configuration list for PBXNativeTarget "libCommonCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD0293407B5FD053B9DFA6D74A0193E /* Debug */,
+				41A76AC5E21BF90D1C76DA72EA5DC8B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
