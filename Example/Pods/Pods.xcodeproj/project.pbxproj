@@ -288,7 +288,7 @@
 		4DBE2D71C9C15BEE3A71193873F6004F /* Apptoms */ = {
 			isa = PBXGroup;
 			children = (
-				F6E1E5FDF3C42F89EC895CACBC23E994 /* Apptoms */,
+				687DFCC4E03989C6FAF6CF4743AA0A34 /* Classes */,
 				C6E5D6A96FF28CF5146F00D623F34ADA /* Support Files */,
 			);
 			name = Apptoms;
@@ -336,7 +336,8 @@
 				2F5F3CAA5CAA590D874FA3B4A1EEC455 /* Beryllium */,
 				A824D33B0A6D5A355C8587AC02C85741 /* Boron */,
 			);
-			path = Classes;
+			name = Classes;
+			path = Apptoms/Classes;
 			sourceTree = "<group>";
 		};
 		72D766E7C294500314F065CF5F162DDF /* Pods-Apptoms_Example */ = {
@@ -485,22 +486,6 @@
 				3E7597BECDF603399C94E4D1941AEFDB /* Support Files */,
 			);
 			path = UIFontComplete;
-			sourceTree = "<group>";
-		};
-		E4418FC2CDEA8CDB58308721F710BE0D /* Apptoms */ = {
-			isa = PBXGroup;
-			children = (
-				687DFCC4E03989C6FAF6CF4743AA0A34 /* Classes */,
-			);
-			path = Apptoms;
-			sourceTree = "<group>";
-		};
-		F6E1E5FDF3C42F89EC895CACBC23E994 /* Apptoms */ = {
-			isa = PBXGroup;
-			children = (
-				E4418FC2CDEA8CDB58308721F710BE0D /* Apptoms */,
-			);
-			name = Apptoms;
 			sourceTree = "<group>";
 		};
 		FA9BDAC54D9BA9EFB61DCD2897B6C469 /* Products */ = {
