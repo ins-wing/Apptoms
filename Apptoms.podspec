@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Apptoms'
-  s.version          = '0.0.13'
+  s.version          = '0.0.14'
   s.summary          = 'Apptoms Archtecture.'
 
 # This description is used to generate tags and improve search results.
@@ -33,6 +33,9 @@ Combine different Apptoms Elements to create a new compound.
   s.default_subspec = 'Apptoms'
   s.requires_arc = true
 
+  s.dependency 'UIFontComplete'
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -weak_framework UIFontComplete' }
+
   s.subspec 'Apptoms' do |sp|
     sp.source_files = 'Apptoms/Classes/Apptoms/**/*'
   end
@@ -54,11 +57,13 @@ Combine different Apptoms Elements to create a new compound.
 
   s.subspec 'Beryllium' do |sp|
     sp.dependency 'SwiftMsgPack'
+    sp.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -weak_framework SwiftMsgPack' }
     sp.source_files = 'Apptoms/Classes/Beryllium/**/*'
   end
 
   s.subspec 'Boron' do |sp|
     sp.dependency 'libCommonCrypto'
+    sp.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -weak_framework "CommonCrypto"' }
     sp.source_files = 'Apptoms/Classes/Boron/**/*'
   end
 
@@ -69,5 +74,5 @@ Combine different Apptoms Elements to create a new compound.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'UIFontComplete'
+
 end
