@@ -15,6 +15,10 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
 
 		//print("1234567890".sha1?.hex ?? "")
+		
+		let data = Data(hex: "0x123ABC7e")
+		print(data?.hex)
+		
     }
 
     override func didReceiveMemoryWarning() {
